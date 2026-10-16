@@ -1,0 +1,183 @@
+{
+  "assets": [
+    {
+      "id": "america",
+      "name": "美国",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/america.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Americaicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 1241,
+      "sha256": "a5966dcbfc47bd7cd16f7be11a81b1a22f656e72310f19733ae10a68211c4b4e",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "britain",
+      "name": "英国",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/britain.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Great Britainicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 1550,
+      "sha256": "f07de4fb39631e671478eaaf181508738399c1578e26bdda64f68035d319410f",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "france",
+      "name": "法国",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/france.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Franceicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 833,
+      "sha256": "c396f54541614e9942c559ea63df4bfd6cade85080c2273339bb82c7ed14da87",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "germany",
+      "name": "德国",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/germany.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Germanyicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 754,
+      "sha256": "c56a0e3cb6b46cf5a569ad6dca6ae9e736125b891df936b15f36168430a44139",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "korea",
+      "name": "韩国",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/korea.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Koreaicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 944,
+      "sha256": "965a91391e94ff14f4ea5a785016fec13a28847ff59b12c5b3a939e2410a5628",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "russia",
+      "name": "苏俄",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/russia.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Russiaicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 878,
+      "sha256": "6acc91bb4301c96adbb1c46c250d5eae016a24fba19d6652a54bb0c000554233",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "iraq",
+      "name": "伊拉克",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/iraq.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Iraqicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 896,
+      "sha256": "745ac33b23040dbe096275d1eb004e9bc279df0a7cb89130cd5f66519bfcf663",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "cuba",
+      "name": "古巴",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/cuba.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Cubaicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 985,
+      "sha256": "04bb1554893dbcd56a13f417083dbf862c7a8d0f85d8bd7e10e06a3461876b83",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "libya",
+      "name": "利比亚",
+      "kind": "country-flag",
+      "versions": [
+        "ra2",
+        "yr"
+      ],
+      "path": "assets/countries/libya.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Libyaicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 920,
+      "sha256": "9afb55040fb8b59529ebb024d733e558c8ef30c75848d8ecf99ce0f3bc327b18",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    },
+    {
+      "id": "yuri",
+      "name": "尤里阵营",
+      "kind": "faction-emblem",
+      "versions": [
+        "yr"
+      ],
+      "path": "assets/countries/yuri.png",
+      "sourcePath": "D:\\Red_Alet_II\\CNCNET\\Resources\\Yuriicon.png",
+      "sourceType": "local-cncnet-client-resource",
+      "width": 33,
+      "height": 16,
+      "bytes": 1219,
+      "sha256": "e5a972e801f0f787281042a3bf05dc931ca8c26b2f7163571beaa3269b3a2d4f",
+      "transformation": "none; byte-for-byte copy",
+      "licenseStatus": "not determined from local resource files"
+    }
+  ]
+}

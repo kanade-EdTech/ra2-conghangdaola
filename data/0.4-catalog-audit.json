@@ -1,0 +1,6626 @@
+[
+  {
+    "version": "ra2",
+    "gameId": "GHOST",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV1",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV2",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV3",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CTECH",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WEEDGUY",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "COW",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ALL",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLADIMIR",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PENTGEN",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PRES",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SSRV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVC",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBBP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBFM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBF",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBTM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSFM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSF",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSTM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "POLARB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "JOSH",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAR",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "BUS",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WINI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PICK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HOWI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HIND",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LTNK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CMON",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "XCOMET",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DEATHDUMMY",
+    "kind": "unit",
+    "included": false,
+    "reason": "未定义的条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLAD",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PROPA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CONA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "COP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "EUROC",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LIMO",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "STANG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVW",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TAXI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PTRUCK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CRUISE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TUG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CDEST",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "APACHE",
+    "kind": "unit",
+    "included": false,
+    "reason": "未定义的条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORNET",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "V3ROCKET",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ASW",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DMISL",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PDPLANE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARGOPLANE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAREFN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GACNST",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAPILE",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GASAND",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GADEPT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GATECH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAWEAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALAB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NATECH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAHAND",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAWALL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NARADR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAWEAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAREFN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAWALL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAPSIS",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAWAST",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NALASR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NASAM",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GARADR",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAYARD",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAIRON",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NACNST",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NADEPT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GACSPH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GADUMY",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAWEAT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CABHUT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GALITE",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "REDLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GRENLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "BLUELAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "YELWLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "PURPLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INORANLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INGRNLMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INREDLMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INBLULMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CITY06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHOSP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INGALITE",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INYELWLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "INPURPLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NEGLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NEGRED",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TESLA",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAMISL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ATESLA",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAARMR",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TSTLAMP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAHPAD",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "AMMOCRAT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAGREEN",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAYARD",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GASPYSAT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAGAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GTGCAN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NANRCT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAPILL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAFLAK",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAOUTP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATHOSP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAAIRP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAOILD",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NACLON",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAOREP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACITY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACITY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACITY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACITY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASWST01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATECH01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFARM01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFARM02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPOL01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPOL01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPOL01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPOL01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASIN01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASIN01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASIN01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASIN01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "GAAIRC",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFRMA",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFRMB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWSH12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAARMY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAUSFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT03E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT03N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT03S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT03W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT02L",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALIT02R",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWT01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CABARN02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWA2A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWA2B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWA2C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWA2D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "AMRADR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPRS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAGARD01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAEURO01",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "MAYAN",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAEUR1",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAEUR2",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAEUR04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMEX01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02F",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY16",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY17",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY18",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAGAS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARS12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFARM06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAPSYB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "ra2",
+    "gameId": "NAPSYA",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAIND01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACOLO01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY22",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY23",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY24",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY25",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANWY26",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS02G",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CATEXS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH16",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH17",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH19",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY20",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CANEWY21",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH18",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAEURO05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARK01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARK02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPARK03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTRT01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTRT02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAHSE06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFNCB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFNCW",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMEX02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMEX03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMEX04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMEX05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACHIG06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAARMY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAARMY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAARMY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TEMMORLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TEMDAYLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TEMDUSLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "TEMNITLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "SNOMORLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "SNODAYLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "SNODUSLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "SNONITLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAKRMW",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARUFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFRFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAIRSFGL",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CACUFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASKFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CALBFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMIAM08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMISC06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05F",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05G",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTL05H",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAGEFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAUKFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAWASH06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAPOFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMSC12A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMOV01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAMOV02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CABUNK01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CABUNK02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAFNCP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTRT03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTRT04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "ra2",
+    "gameId": "CASTRT05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV1",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV2",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV3",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CTECH",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "WEEDGUY",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "COW",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "ALL",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "VLADIMIR",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PENTGEN",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PRES",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SSRV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVC",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBBP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBFM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBF",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBTM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSFM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSF",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSTM",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "POLARB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "JOSH",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CLNT",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "ARND",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "STLN",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAML",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "EINS",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "MUMY",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "RMNV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "LUNR",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SLAV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "WWLF",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YDOG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YADOG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAR",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "BUS",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "WINI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PICK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "HORV",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "HOWI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "HIND",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMON",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "XCOMET",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DEATHDUMMY",
+    "kind": "unit",
+    "included": false,
+    "reason": "未定义的条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "VLAD",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PROPA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CONA",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "COP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "EUROC",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "LIMO",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "STANG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVW",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "TAXI",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PTRUCK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CRUISE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "TUG",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CDEST",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SMON",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YCAB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DDBX",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "BCAB",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "JEEP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "UTNK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YDUM",
+    "kind": "unit",
+    "included": false,
+    "reason": "未定义的条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SCHD",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DOLY",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CBLC",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "FTRK",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "AMBU",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "APACHE",
+    "kind": "unit",
+    "included": false,
+    "reason": "未定义的条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "HORNET",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "V3ROCKET",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "ASW",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "DMISL",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "PDPLANE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CARGOPLANE",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "BPLN",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SPYP",
+    "kind": "unit",
+    "included": true,
+    "reason": "特殊／平民单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMISL",
+    "kind": "unit",
+    "included": false,
+    "reason": "弹体或舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAREFN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "GACNST",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GAPILE",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GASAND",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GADEPT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GATECH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAWEAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "CALAB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "yr",
+    "gameId": "NATECH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAHAND",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAWALL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NARADR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAWEAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAREFN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAWALL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NAPSIS",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASYDN01",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NALASR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NASAM",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASYDN02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GAYARD",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAIRON",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NACNST",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NADEPT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GACSPH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GADUMY",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAWEAT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CABHUT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GALITE",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "REDLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GRENLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "BLUELAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YELWLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "PURPLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INORANLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INGRNLMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INREDLMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INBLULMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CITY06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHOSP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INGALITE",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INYELWLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "INPURPLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NEGLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NEGRED",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TESLA",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAMISL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "ATESLA",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMACH",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TSTLAMP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASYDN03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "AMMOCRAT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GAGREEN",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NAYARD",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GASPYSAT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAGAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GTGCAN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NANRCT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAPILL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAFLAK",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAOUTP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATHOSP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAAIRP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAOILD",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NACLON",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAOREP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "CACITY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACITY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACITY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACITY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASWST01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATECH01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFARM01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFARM02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOL01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOL01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOL01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOL01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN01E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN01N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN01S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN01W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GAAIRC",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFRMA",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFRMB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWSH12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAARMY01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAUSFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT03E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT03N",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT03S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT03W",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT02L",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALIT02R",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWT01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABARN02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWA2A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWA2B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWA2C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWA2D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "AMRADR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPRS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAGARD01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATRAN01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "MAYAN",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEUR1",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEUR2",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEUR04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMEX01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02F",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY16",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY17",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY18",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAGAS01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARS12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFARM06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NAPSYB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAPSYA",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAIND01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACOLO01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY22",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY23",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY24",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY25",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANWY26",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS02G",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATEXS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH16",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH17",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH19",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY20",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CANEWY21",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUS06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH18",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEURO05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTRT01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTRT02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAHSE06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFNCB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFNCW",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMEX02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMEX03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMEX04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMEX05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACHIG06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAARMY02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAARMY03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAARMY04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TEMMORLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TEMDAYLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TEMDUSLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "TEMNITLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "SNOMORLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "SNODAYLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "SNODUSLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "SNONITLAMP",
+    "kind": "building",
+    "included": false,
+    "reason": "灯光／不可见辅助对象",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAKRMW",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CARUFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFRFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATRAN02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CACUFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASKFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALBFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMIAM08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMISC06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05B",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05C",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05D",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05F",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05G",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTL05H",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAGEFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAUKFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAWASH06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOFGL",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMSC12A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMOV01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMOV02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABUNK01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABUNK02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAFNCP",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTRT03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTRT04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASTRT05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YACNST",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Power"
+  },
+  {
+    "version": "yr",
+    "gameId": "YABRCK",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAWEAP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAYARD",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "YADEPT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "YATECH",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAFWLL",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAGGUN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAPSYT",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "NAINDP",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAGRND",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Tech"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAGNTC",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASLAB",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATIME",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YAPPET",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMOON01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATRAN03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEAST01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA02",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND02",
+    "kind": "building",
+    "included": false,
+    "reason": "缺少实体规则",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALOND03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASEAT01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NATBNK",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "GAGATE_A",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASEAT02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YACOMD",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "YAPPPT",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "GAROBO",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAREFN",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Resource"
+  },
+  {
+    "version": "yr",
+    "gameId": "YAROCK",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "NABNKR",
+    "kind": "building",
+    "included": true,
+    "reason": "遭遇战建筑",
+    "buildCat": "Combat"
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF16",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF17",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASANF18",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN03E",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CASIN03S",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAURB01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAURB02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAURB03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPOWR",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEAST02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABARR01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABARR02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAEGYP05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR07",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR08",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR09",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAMORR10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATIME01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CATIME02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA10",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA11",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA12",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA13",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK05",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CAPARK06",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA14",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALA15",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABUNK03",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CABUNK04",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALUNR01",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  },
+  {
+    "version": "yr",
+    "gameId": "CALUNR02",
+    "kind": "building",
+    "included": true,
+    "reason": "中立／战役建筑",
+    "buildCat": null
+  }
+]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#131719">
+  <title>红警 2 · 从夯到拉</title>
+  <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">Ⅱ</span><span>红色警戒 <span class="brand-number">2</span></span></div>
+      <span class="edition-label">指挥官的排名手册</span>
+    </header>
+    <div class="top-navigation">
+      <nav class="mode-tabs" aria-label="选择榜单">
+        <button type="button" data-mode="countries" aria-pressed="true">国家榜</button>
+        <button type="button" data-mode="units" aria-pressed="false">常规榜</button>
+        <button type="button" data-mode="signatures" aria-pressed="false">特色榜</button>
+      </nav>
+      <nav id="specialty-tabs" class="specialty-tabs" aria-label="特色榜分类" hidden>
+        <button type="button" data-specialty="signatures" aria-pressed="true">国家特色</button>
+        <button type="button" data-specialty="t4" aria-pressed="false">T4 科技</button>
+        <button type="button" data-specialty="others" aria-pressed="false">其他单位</button>
+        <button type="button" data-specialty="structures" aria-pressed="false">特殊建筑</button>
+      </nav>
+    </div>
+    <main>
+      <section class="intro">
+        <div>
+          <p class="eyebrow"><span class="signal-dot"></span> COMMANDER'S TIER LIST</p>
+          <h1>从<span>夯</span>到<span class="last-word">拉</span><span class="title-period">.</span></h1>
+          <p class="intro-copy">国家、部队、建筑、机密科技——谁是你的王牌？</p>
+        </div>
+        <div class="intro-stamp" aria-hidden="true"><span>RA2</span><strong>你来定档</strong><small>ALLIED · SOVIET · YURI</small></div>
+      </section>
+      <section class="controls" aria-label="榜单设置">
+        <div id="version-tabs" class="version-tabs" role="group" aria-label="选择游戏版本">
+          <button type="button" data-version="combined" aria-pressed="false" hidden>综合<span>9 项</span></button>
+          <button type="button" data-version="ra2" aria-pressed="true">红警 2 原版<span>9 国</span></button>
+          <button type="button" data-version="yr" aria-pressed="false">尤里的复仇<span>10 项</span></button>
+        </div>
+        <div class="title-field">
+          <label for="board-title">榜单名称</label>
+          <input id="board-title" type="text" autocomplete="off" spellcheck="false" aria-describedby="title-count">
+          <span id="title-count">0/30</span>
+        </div>
+      </section>
+      <section id="unit-controls" class="unit-controls" aria-label="单位范围" hidden>
+        <div class="filter-heading"><strong>划定作战范围</strong><button id="toggle-filters" type="button" aria-expanded="true" aria-controls="filter-fields">收起筛选</button></div>
+        <div id="filter-fields" class="filter-fields">
+          <label>类别<select id="filter-category"><option value="all">全部类别</option><option value="infantry">步兵</option><option value="ground">地面载具</option><option value="naval">海军</option><option value="air">空中单位</option></select></label>
+          <label>阵营<select id="filter-faction"><option value="all">全部阵营</option><option value="allied">盟军</option><option value="soviet">苏军</option><option value="yuri">尤里</option></select></label>
+          <label id="stage-field">科技阶段<select id="filter-stage"><option value="all">全部科技</option><option value="basic">基础</option><option value="radar">雷达后</option><option value="lab">作战实验室后</option></select></label>
+          <label id="source-field" hidden>来源<select id="filter-source"></select></label>
+          <label id="national-field" class="check-field"><input id="filter-national" type="checkbox"> 屏蔽国家专属单位与建筑</label>
+          <button id="apply-filters" type="button" class="primary-button">应用筛选</button>
+        </div>
+        <div class="filter-foot"><span id="filter-preview" role="status"></span><button id="clear-all-filters" type="button" class="text-button">清除筛选</button><button id="secret-button" type="button" class="secret-button" aria-label="打开 T4 机密档案" aria-expanded="false" aria-controls="secret-panel"><span aria-hidden="true">▣</span> 机密档案 <small>CLASSIFIED</small></button></div>
+        <section id="secret-panel" class="secret-panel" aria-label="T4 机密档案" hidden>
+          <button id="close-secret" type="button" class="close-secret" aria-label="关闭机密档案">×</button>
+          <div class="secret-seal" aria-hidden="true">TOP SECRET</div><span class="secret-kicker">SPECIAL OPERATIONS / 04</span>
+          <h2>T4 <span>机密科技</span></h2><p>间谍科技单位 · 独立排名 · 常规榜也可筛选</p><p id="secret-version"></p>
+          <button id="enter-t4" type="button" class="primary-button">解封档案 · 进入 T4 排名 ↗</button>
+        </section>
+      </section>
+      <div id="t4-heading" class="t4-heading" hidden><span>T4 / 间谍科技 · 独立榜</span><button id="return-units" type="button" class="secondary-button">返回常规榜</button></div>
+      <p id="context-summary" class="context-summary"></p>
+      <div id="empty-state" class="empty-state" role="status" hidden><strong>这个组合暂无单位</strong><p>换一组条件，重新部署你的部队。</p><button id="clear-filters" type="button" class="secondary-button">清除筛选</button></div>
+      <div class="workspace">
+        <section class="ranking-panel" aria-labelledby="ranking-heading">
+          <div class="section-heading">
+            <h2 id="ranking-heading"><span class="section-index">01</span> 我的排名</h2>
+            <span id="progress-label">已排 0 / 9</span>
+          </div>
+          <div class="progress-track" aria-hidden="true"><div id="progress-bar"></div></div>
+          <div id="tier-board" class="tier-board"></div>
+          <p class="board-tip"><span aria-hidden="true">↳</span> 拖卡片定档；滑动左侧档位或空白滚动。点选后也可调整档位。</p>
+        </section>
+        <section class="pool-panel" aria-labelledby="pool-heading">
+          <div class="section-heading">
+            <h2 id="pool-heading"><span class="section-index">02</span> 待排名</h2>
+            <span class="count-badge" id="pool-count">9</span>
+          </div>
+          <p class="pool-tip">你的部队已就位，等待指挥。</p>
+          <div id="country-pool" class="card-list pool-list" data-dropzone="unranked" role="group" aria-label="待排名项目"></div>
+          <div class="faction-legend"><span><i class="allied"></i>盟军</span><span><i class="soviet"></i>苏军</span><span><i class="yuri"></i>尤里</span></div>
+          <p class="save-state" id="save-status" role="status">本地草稿</p>
+        </section>
+      </div>
+      <aside id="selection-bar" class="selection-bar" aria-label="选中项目操作" hidden>
+        <span id="selection-label" role="status"></span>
+        <div id="selection-actions">
+          <button id="selection-edit" type="button">调整档位</button>
+          <button id="selection-prev" type="button">前移</button>
+          <button id="selection-next" type="button">后移</button>
+          <button id="selection-unrank" type="button">移回待排名</button>
+        </div>
+        <button id="cancel-drag" type="button" hidden>取消拖动</button>
+      </aside>
+      <div class="action-bar">
+        <div class="utility-actions">
+          <button id="undo-button" type="button" class="secondary-button" disabled><span aria-hidden="true">↶</span> 撤销</button>
+          <button id="reset-button" type="button" class="text-button">重新排名</button>
+        </div>
+        <button id="export-button" type="button" class="primary-button">生成结果图 <span aria-hidden="true">↗</span></button>
+      </div>
+      <footer class="page-footer"><span>每一份排名，都是一段红警记忆。</span><span>个人游戏体验 · 仅供交流</span></footer>
+    </main>
+  </div>
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <section id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <button id="modal-close" type="button" class="close-button" aria-label="关闭弹窗">×</button>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p>需要启用 JavaScript 才能使用排名工具。</p></noscript>
+  <script src="./data.js"></script>
+  <script src="./data/units.js"></script>
+  <script src="./data/others.js"></script>
+  <script src="./data/buildings.js"></script>
+  <script src="./data/signatures.js"></script>
+  <script src="./core/catalog.js"></script>
+  <script src="./core/ranking.js"></script>
+  <script src="./core/storage.js"></script>
+  <script src="./ui/dialog.js"></script>
+  <script src="./ui/interaction/session.js"></script>
+  <script src="./ui/interaction/hit-test.js"></script>
+  <script src="./ui/interaction/input.js"></script>
+  <script src="./ui/drag.js"></script>
+  <script src="./export/poster.js"></script>
+  <script src="./platform.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "version": "0.3.0",
+  "artifacts": [
+    {
+      "platform": "toy",
+      "sha256": "586e5bbf2e28c592135b7545e52588ef6123376dd5380e4e8b99795f027a26fc",
+      "zipBytes": 647455,
+      "files": 150
+    },
+    {
+      "platform": "xhs",
+      "sha256": "a9232f6193d2486a7ccd70e763ab0828f0ef7efa07bd0119d6900e165b030276",
+      "zipBytes": 647521,
+      "files": 150
+    }
+  ]
+}

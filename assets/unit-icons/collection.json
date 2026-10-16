@@ -1,0 +1,32 @@
+{
+  "sourceDirectory": "D:\\Red_Alet_II\\YURI",
+  "sourceType": "local-game-mix",
+  "versions": {
+    "ra2": "assets/unit-icons/ra2/manifest.json",
+    "yr": "assets/unit-icons/yr/manifest.json"
+  },
+  "archives": [
+    {
+      "path": "D:\\Red_Alet_II\\YURI\\ra2.mix",
+      "sha256": "896a8b64f9f1bb8ad5e0bc64fc0b8ea8c84112494761ea1a43478d10c5ef9914"
+    },
+    {
+      "path": "D:\\Red_Alet_II\\YURI\\ra2md.mix",
+      "sha256": "69d886defad9114dd440a013b364c8c004e369b5221d1889957b49d00058559d"
+    },
+    {
+      "path": "D:\\Red_Alet_II\\YURI\\language.mix",
+      "sha256": "de845d622f35075dd1df0dceb1f6249aa557efc6329bb987795e71a4fb25321d"
+    },
+    {
+      "path": "D:\\Red_Alet_II\\YURI\\langmd.mix",
+      "sha256": "a7962ebad4bc7bfdadeb9e8800cdb5d159972f04c755865624029fae67e44789"
+    },
+    {
+      "path": "D:\\Red_Alet_II\\YURI\\expandmd01.mix",
+      "sha256": "0c0a64e741bdecdc3843a0beb6bb1f58aa2df5b86eb3bc4a953821ec98f3d6ec"
+    }
+  ],
+  "licenseStatus": "Game assets retain their original rights; public-use conditions not determined here.",
+  "transformation": "SHP frames decoded with game cameo.pal, 6-bit channels expanded by multiplication by 4; native dimensions, opaque RGB PNG."
+}

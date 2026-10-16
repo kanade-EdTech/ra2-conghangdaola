@@ -1,0 +1,6756 @@
+[
+  {
+    "version": "ra2",
+    "gameId": "E1",
+    "sourceName": "美國大兵",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:E1",
+      "gameId": "E1",
+      "version": "ra2",
+      "name": "美国大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/e1.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "E2",
+    "sourceName": "動員兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:E2",
+      "gameId": "E2",
+      "version": "ra2",
+      "name": "动员兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/e2.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SHK",
+    "sourceName": "磁爆步兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SHK",
+      "gameId": "SHK",
+      "version": "ra2",
+      "name": "磁爆步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/shk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "ENGINEER",
+    "sourceName": "工程師",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:ENGINEER",
+      "gameId": "ENGINEER",
+      "version": "ra2",
+      "name": "工程师",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/engineer.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "JUMPJET",
+    "sourceName": "火箭飛行兵",
+    "rules": {
+      "JUMPJET": "yes",
+      "PREREQUISITE": "GAPILE,RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly",
+      "CONSIDEREDAIRCRAFT": "yes"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:JUMPJET",
+      "gameId": "JUMPJET",
+      "version": "ra2",
+      "name": "火箭飞行兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry",
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/jumpjet.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "GHOST",
+    "sourceName": "海豹部隊",
+    "rules": {
+      "PREREQUISITE": "GAPILE,RADAR",
+      "PREREQUISITEOVERRIDE": "CAWA2A,CAWA2B,CAWA2C,CAWA2D",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "AmphibiousDestroyer"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "YURI",
+    "sourceName": "尤里",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NATECH",
+      "PREREQUISITEOVERRIDE": "CARUS03",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:YURI",
+      "gameId": "YURI",
+      "version": "ra2",
+      "name": "尤里",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/yuri.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "IVAN",
+    "sourceName": "瘋狂伊文",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NARADR",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:IVAN",
+      "gameId": "IVAN",
+      "version": "ra2",
+      "name": "疯狂伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ivan.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DESO",
+    "sourceName": "輻射工兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND,RADAR",
+      "TECHLEVEL": "8",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DESO",
+      "gameId": "DESO",
+      "version": "ra2",
+      "name": "辐射工兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "8",
+      "countries": [
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/deso.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DOG",
+      "gameId": "DOG",
+      "version": "ra2",
+      "name": "军犬",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dog.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV1",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV2",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV3",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CTECH",
+    "sourceName": "技師",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WEEDGUY",
+    "sourceName": "化學兵",
+    "rules": {
+      "PREREQUISITE": "BARRACKS",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CLEG",
+    "sourceName": "超時空軍團兵",
+    "rules": {
+      "PREREQUISITE": "GAPILE,TECH",
+      "PREREQUISITEOVERRIDE": "CAWASH16",
+      "TECHLEVEL": "10",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:CLEG",
+      "gameId": "CLEG",
+      "version": "ra2",
+      "name": "超时空军团兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/cleg.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SPY",
+    "sourceName": "間諜",
+    "rules": {
+      "PREREQUISITE": "GAPILE,GATECH",
+      "TECHLEVEL": "5",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SPY",
+      "gameId": "SPY",
+      "version": "ra2",
+      "name": "间谍",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/spy.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "CCOMAND",
+    "sourceName": "超時空突擊隊",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "REQUIRESSTOLENALLIEDTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:ra2:CCOMAND",
+      "gameId": "CCOMAND",
+      "version": "ra2",
+      "name": "超时空突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ccomand.png",
+      "kind": "unit",
+      "acquisition": "ALLIED"
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "PTROOP",
+    "sourceName": "心靈突擊隊",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "REQUIRESSTOLENSOVIETTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:ra2:PTROOP",
+      "gameId": "PTROOP",
+      "version": "ra2",
+      "name": "心灵突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ptroop.png",
+      "kind": "unit",
+      "acquisition": "SOVIET"
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVAN",
+    "sourceName": "超時空伊文",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "REQUIRESSTOLENALLIEDTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:ra2:CIVAN",
+      "gameId": "CIVAN",
+      "version": "ra2",
+      "name": "超时空伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/civan.png",
+      "kind": "unit",
+      "acquisition": "ALLIED"
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "YURIPR",
+    "sourceName": "尤里改",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "REQUIRESSTOLENSOVIETTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry",
+      "BUILDLIMIT": "1"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:ra2:YURIPR",
+      "gameId": "YURIPR",
+      "version": "ra2",
+      "name": "尤里改",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/yuripr.png",
+      "kind": "unit",
+      "acquisition": "SOVIET"
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SNIPE",
+    "sourceName": "狙擊手",
+    "rules": {
+      "PREREQUISITE": "GAPILE,RADAR",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "British",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SNIPE",
+      "gameId": "SNIPE",
+      "version": "ra2",
+      "name": "狙击手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "British"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/snipe.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "COW",
+    "sourceName": "乳牛",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ALL",
+    "sourceName": "鱷魚",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TANY",
+    "sourceName": "譚雅",
+    "rules": {
+      "PREREQUISITE": "GAPILE,GATECH",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "AmphibiousDestroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:TANY",
+      "gameId": "TANY",
+      "version": "ra2",
+      "name": "谭雅",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/tany.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "FLAKT",
+    "sourceName": "防空步兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NARADR",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:FLAKT",
+      "gameId": "FLAKT",
+      "version": "ra2",
+      "name": "防空步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/flakt.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "TERROR",
+    "sourceName": "恐怖份子",
+    "rules": {
+      "PREREQUISITE": "NAHAND,RADAR",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Confederation",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:TERROR",
+      "gameId": "TERROR",
+      "version": "ra2",
+      "name": "恐怖分子",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Confederation"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/terror.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SENGINEER",
+    "sourceName": "工程師",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SENGINEER",
+      "gameId": "SENGINEER",
+      "version": "ra2",
+      "name": "工程师",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sengineer.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "ADOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:ADOG",
+      "gameId": "ADOG",
+      "version": "ra2",
+      "name": "军犬",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/adog.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLADIMIR",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PENTGEN",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PRES",
+    "sourceName": "總統",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SSRV",
+    "sourceName": "終極保鏢",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVA",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVB",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVC",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBBP",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBFM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBF",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBTM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSFM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSF",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSTM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "POLARB",
+    "sourceName": "北極熊",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "JOSH",
+    "sourceName": "猴子",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "AMCV",
+    "sourceName": "盟軍機動基地車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GADEPT",
+      "TECHLEVEL": "10",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:AMCV",
+      "gameId": "AMCV",
+      "version": "ra2",
+      "name": "盟军基地车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/amcv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HARV",
+    "sourceName": "武裝採礦車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,PROC",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:HARV",
+      "gameId": "HARV",
+      "version": "ra2",
+      "name": "武装采矿车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/harv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "APOC",
+    "sourceName": "天啟坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NATECH",
+      "TECHLEVEL": "7",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:APOC",
+      "gameId": "APOC",
+      "version": "ra2",
+      "name": "天启坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/apoc.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HTNK",
+    "sourceName": "犀牛坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:HTNK",
+      "gameId": "HTNK",
+      "version": "ra2",
+      "name": "犀牛坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/htnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SAPC",
+    "sourceName": "裝甲運兵船",
+    "rules": {
+      "PREREQUISITE": "NAYARD",
+      "TECHLEVEL": "2",
+      "NAVAL": "yes",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Amphibious"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SAPC",
+      "gameId": "SAPC",
+      "version": "ra2",
+      "name": "苏军运输船",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sapc.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAR",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "BUS",
+    "sourceName": "校車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WINI",
+    "sourceName": "野營車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PICK",
+    "sourceName": "小貨車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "MTNK",
+    "sourceName": "灰熊坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:MTNK",
+      "gameId": "MTNK",
+      "version": "ra2",
+      "name": "灰熊坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/mtnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORV",
+    "sourceName": "武裝採礦車",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKA",
+    "sourceName": "卡車",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKB",
+    "sourceName": "卡車（載貨）",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARRIER",
+    "sourceName": "航空母艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD,TECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:CARRIER",
+      "gameId": "CARRIER",
+      "version": "ra2",
+      "name": "航空母舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/carrier.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "V3",
+    "sourceName": "V3 火箭發射車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NARADR",
+      "TECHLEVEL": "3",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:V3",
+      "gameId": "V3",
+      "version": "ra2",
+      "name": "V3 火箭发射车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/v3.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "ZEP",
+    "sourceName": "基洛夫空艇",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NATECH",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:ZEP",
+      "gameId": "ZEP",
+      "version": "ra2",
+      "name": "基洛夫空艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/zep.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DRON",
+    "sourceName": "恐怖機器人",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "4",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DRON",
+      "gameId": "DRON",
+      "version": "ra2",
+      "name": "恐怖机器人",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dron.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HTK",
+    "sourceName": "防空履帶車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "3",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:HTK",
+      "gameId": "HTK",
+      "version": "ra2",
+      "name": "防空履带车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/htk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DEST",
+    "sourceName": "驅逐艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD",
+      "NAVAL": "yes",
+      "TECHLEVEL": "4",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DEST",
+      "gameId": "DEST",
+      "version": "ra2",
+      "name": "驱逐舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dest.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUB",
+    "sourceName": "颱風級攻擊潛艇",
+    "rules": {
+      "PREREQUISITE": "NAYARD",
+      "NAVAL": "yes",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SUB",
+      "gameId": "SUB",
+      "version": "ra2",
+      "name": "台风潜艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sub.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "AEGIS",
+    "sourceName": "神盾巡洋艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD,RADAR",
+      "NAVAL": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:AEGIS",
+      "gameId": "AEGIS",
+      "version": "ra2",
+      "name": "神盾巡洋舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/aegis.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "LCRF",
+    "sourceName": "兩棲運輸艇",
+    "rules": {
+      "PREREQUISITE": "GAYARD",
+      "TECHLEVEL": "4",
+      "NAVAL": "yes",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Amphibious"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:LCRF",
+      "gameId": "LCRF",
+      "version": "ra2",
+      "name": "盟军运输船",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/lcrf.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DRED",
+    "sourceName": "無畏級戰艦",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "6",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DRED",
+      "gameId": "DRED",
+      "version": "ra2",
+      "name": "无畏级战舰",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dred.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SHAD",
+    "sourceName": "夜鷹直昇機",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SHAD",
+      "gameId": "SHAD",
+      "version": "ra2",
+      "name": "夜鹰直升机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/shad.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SQD",
+    "sourceName": "巨型烏賊",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "TECHLEVEL": "9",
+      "NAVAL": "yes",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SQD",
+      "gameId": "SQD",
+      "version": "ra2",
+      "name": "巨型乌贼",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sqd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DLPH",
+    "sourceName": "海豚",
+    "rules": {
+      "PREREQUISITE": "GAYARD,GATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "5",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DLPH",
+      "gameId": "DLPH",
+      "version": "ra2",
+      "name": "海豚",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dlph.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SMCV",
+    "sourceName": "蘇聯機動基地車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NADEPT",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SMCV",
+      "gameId": "SMCV",
+      "version": "ra2",
+      "name": "苏军基地车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/smcv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "TNKD",
+    "sourceName": "坦克殺手",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,RADAR",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Germans",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:TNKD",
+      "gameId": "TNKD",
+      "version": "ra2",
+      "name": "坦克杀手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "Germans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/tnkd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HOWI",
+    "sourceName": "榴彈砲",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TTNK",
+    "sourceName": "磁能坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NARADR",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Russians",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:TTNK",
+      "gameId": "TTNK",
+      "version": "ra2",
+      "name": "磁能坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/ttnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HIND",
+    "sourceName": "雌鹿運輸直昇機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Confederation",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LTNK",
+    "sourceName": "輕坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CMON",
+    "sourceName": "超時空採礦車（未裝載）",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CMIN",
+    "sourceName": "超時空採礦車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,PROC",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:CMIN",
+      "gameId": "CMIN",
+      "version": "ra2",
+      "name": "超时空采矿车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/cmin.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "SREF",
+    "sourceName": "光稜坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "8",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:SREF",
+      "gameId": "SREF",
+      "version": "ra2",
+      "name": "光棱坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "8",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/sref.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "XCOMET",
+    "sourceName": "位置標定器",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HYD",
+    "sourceName": "海蠍",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NARADR",
+      "NAVAL": "yes",
+      "TECHLEVEL": "6",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:HYD",
+      "gameId": "HYD",
+      "version": "ra2",
+      "name": "海蝎",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/hyd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "MGTK",
+    "sourceName": "幻影坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:MGTK",
+      "gameId": "MGTK",
+      "version": "ra2",
+      "name": "幻影坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/mgtk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "FV",
+    "sourceName": "多功能步兵戰鬥車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:FV",
+      "gameId": "FV",
+      "version": "ra2",
+      "name": "多功能步兵车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/fv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "DEATHDUMMY",
+    "sourceName": "DeathDummy",
+    "rules": {},
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLAD",
+    "sourceName": "維拉迪摩指揮艦",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "FORBIDDENHOUSES": "Russians",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DTRUCK",
+    "sourceName": "自爆卡車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,RADAR",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Africans",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:DTRUCK",
+      "gameId": "DTRUCK",
+      "version": "ra2",
+      "name": "自爆卡车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Africans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/dtruck.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "PROPA",
+    "sourceName": "宣傳車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CONA",
+    "sourceName": "挖土機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "COP",
+    "sourceName": "警車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "EUROC",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LIMO",
+    "sourceName": "豪華轎車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "STANG",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVB",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVW",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TAXI",
+    "sourceName": "計程車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PTRUCK",
+    "sourceName": "小貨車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CRUISE",
+    "sourceName": "遊輪",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TUG",
+    "sourceName": "拖船",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CDEST",
+    "sourceName": "海岸巡防艇",
+    "rules": {
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "APACHE",
+    "sourceName": "APACHE",
+    "rules": {},
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ORCA",
+    "sourceName": "入侵者戰機",
+    "rules": {
+      "PREREQUISITE": "RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans",
+      "FORBIDDENHOUSES": "Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:ORCA",
+      "gameId": "ORCA",
+      "version": "ra2",
+      "name": "入侵者战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/orca.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORNET",
+    "sourceName": "黃蜂",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "V3ROCKET",
+    "sourceName": "V3 火箭",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ASW",
+    "sourceName": "鶚式運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DMISL",
+    "sourceName": "飛彈",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PDPLANE",
+    "sourceName": "運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "ra2",
+    "gameId": "BEAG",
+    "sourceName": "黑鷹戰機",
+    "rules": {
+      "PREREQUISITE": "RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:ra2:BEAG",
+      "gameId": "BEAG",
+      "version": "ra2",
+      "name": "黑鹰战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/ra2/units/beag.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARGOPLANE",
+    "sourceName": "運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "E1",
+    "sourceName": "美國大兵",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:E1",
+      "gameId": "E1",
+      "version": "yr",
+      "name": "美国大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/e1.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "E2",
+    "sourceName": "動員兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:E2",
+      "gameId": "E2",
+      "version": "yr",
+      "name": "动员兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/e2.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SHK",
+    "sourceName": "磁爆步兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SHK",
+      "gameId": "SHK",
+      "version": "yr",
+      "name": "磁爆步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/shk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "ENGINEER",
+    "sourceName": "工程師",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:ENGINEER",
+      "gameId": "ENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/engineer.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "JUMPJET",
+    "sourceName": "火箭飛行兵",
+    "rules": {
+      "JUMPJET": "yes",
+      "PREREQUISITE": "GAPILE,RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly",
+      "CONSIDEREDAIRCRAFT": "yes"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:JUMPJET",
+      "gameId": "JUMPJET",
+      "version": "yr",
+      "name": "火箭飞行兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry",
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/jumpjet.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "GHOST",
+    "sourceName": "海豹部隊",
+    "rules": {
+      "PREREQUISITE": "GAPILE,RADAR",
+      "PREREQUISITEOVERRIDE": "CAWA2A,CAWA2B,CAWA2C,CAWA2D",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "AmphibiousDestroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:GHOST",
+      "gameId": "GHOST",
+      "version": "yr",
+      "name": "海豹突击队",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ghost.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "YURI",
+    "sourceName": "尤里複製人",
+    "rules": {
+      "PREREQUISITE": "YABRCK,NAPSIS",
+      "PREREQUISITEOVERRIDE": "CARUS03",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:YURI",
+      "gameId": "YURI",
+      "version": "yr",
+      "name": "尤里复制人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yuri.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "IVAN",
+    "sourceName": "瘋狂伊文",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NARADR",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:IVAN",
+      "gameId": "IVAN",
+      "version": "yr",
+      "name": "疯狂伊文",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ivan.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DESO",
+    "sourceName": "輻射工兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND,RADAR",
+      "TECHLEVEL": "8",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DESO",
+      "gameId": "DESO",
+      "version": "yr",
+      "name": "辐射工兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "8",
+      "countries": [
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/deso.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "British,French,Germans,Americans,Alliance,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DOG",
+      "gameId": "DOG",
+      "version": "yr",
+      "name": "军犬",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dog.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV1",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV2",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV3",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CTECH",
+    "sourceName": "技師",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "WEEDGUY",
+    "sourceName": "化學兵",
+    "rules": {
+      "PREREQUISITE": "BARRACKS",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CLEG",
+    "sourceName": "超時空軍團兵",
+    "rules": {
+      "PREREQUISITE": "GAPILE,TECH",
+      "PREREQUISITEOVERRIDE": "CAWASH16",
+      "TECHLEVEL": "10",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:CLEG",
+      "gameId": "CLEG",
+      "version": "yr",
+      "name": "超时空军团兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/cleg.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SPY",
+    "sourceName": "間諜",
+    "rules": {
+      "PREREQUISITE": "GAPILE,GATECH",
+      "TECHLEVEL": "5",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SPY",
+      "gameId": "SPY",
+      "version": "yr",
+      "name": "间谍",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/spy.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CCOMAND",
+    "sourceName": "超時空突擊隊",
+    "rules": {
+      "PREREQUISITE": "BARRACKS",
+      "REQUIRESSTOLENALLIEDTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:yr:CCOMAND",
+      "gameId": "CCOMAND",
+      "version": "yr",
+      "name": "超时空突击队",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ccomand.png",
+      "kind": "unit",
+      "acquisition": "ALLIED"
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "PTROOP",
+    "sourceName": "心靈突擊隊",
+    "rules": {
+      "PREREQUISITE": "BARRACKS",
+      "REQUIRESSTOLENTHIRDTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:yr:PTROOP",
+      "gameId": "PTROOP",
+      "version": "yr",
+      "name": "心灵突击队",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ptroop.png",
+      "kind": "unit",
+      "acquisition": "THIRD"
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVAN",
+    "sourceName": "超時空伊文",
+    "rules": {
+      "PREREQUISITE": "BARRACKS",
+      "REQUIRESSTOLENSOVIETTECH": "yes",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "t4",
+    "reason": "间谍偷取科技解锁",
+    "classification": {
+      "id": "unit:yr:CIVAN",
+      "gameId": "CIVAN",
+      "version": "yr",
+      "name": "超时空伊文",
+      "faction": "allied",
+      "factions": [
+        "allied",
+        "soviet",
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "t4",
+      "techStage": null,
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance",
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs",
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/civan.png",
+      "kind": "unit",
+      "acquisition": "SOVIET"
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "YURIPR",
+    "sourceName": "尤里X",
+    "rules": {
+      "PREREQUISITE": "YABRCK,YATECH",
+      "TECHLEVEL": "10",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "AmphibiousDestroyer",
+      "BUILDLIMIT": "1"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:YURIPR",
+      "gameId": "YURIPR",
+      "version": "yr",
+      "name": "尤里 X",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yuripr.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SNIPE",
+    "sourceName": "狙擊手",
+    "rules": {
+      "PREREQUISITE": "GAPILE,RADAR",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "British",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SNIPE",
+      "gameId": "SNIPE",
+      "version": "yr",
+      "name": "狙击手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "British"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/snipe.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "COW",
+    "sourceName": "乳牛",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "ALL",
+    "sourceName": "鱷魚",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TANY",
+    "sourceName": "譚雅",
+    "rules": {
+      "PREREQUISITE": "GAPILE,GATECH",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "AmphibiousDestroyer",
+      "BUILDLIMIT": "1"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:TANY",
+      "gameId": "TANY",
+      "version": "yr",
+      "name": "谭雅",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tany.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "FLAKT",
+    "sourceName": "防空步兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NARADR",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:FLAKT",
+      "gameId": "FLAKT",
+      "version": "yr",
+      "name": "防空步兵",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/flakt.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "TERROR",
+    "sourceName": "恐怖份子",
+    "rules": {
+      "PREREQUISITE": "NAHAND,RADAR",
+      "TECHLEVEL": "5",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Confederation",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:TERROR",
+      "gameId": "TERROR",
+      "version": "yr",
+      "name": "恐怖分子",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "5",
+      "countries": [
+        "Confederation"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/terror.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SENGINEER",
+    "sourceName": "工程師",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "British,French,Germans,Americans,Alliance,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SENGINEER",
+      "gameId": "SENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sengineer.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "ADOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:ADOG",
+      "gameId": "ADOG",
+      "version": "yr",
+      "name": "军犬",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/adog.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "VLADIMIR",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "PENTGEN",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "PRES",
+    "sourceName": "總統",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SSRV",
+    "sourceName": "終極保鏢",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVA",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVB",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVC",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBBP",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBFM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBF",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBTM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSFM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSF",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSTM",
+    "sourceName": "平民",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "POLARB",
+    "sourceName": "北極熊",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "JOSH",
+    "sourceName": "猴子",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "YENGINEER",
+    "sourceName": "工程師",
+    "rules": {
+      "PREREQUISITE": "Barracks",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "FORBIDDENHOUSES": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:YENGINEER",
+      "gameId": "YENGINEER",
+      "version": "yr",
+      "name": "工程师",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yengineer.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "GGI",
+    "sourceName": "重裝大兵",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:GGI",
+      "gameId": "GGI",
+      "version": "yr",
+      "name": "重装大兵",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ggi.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "INIT",
+    "sourceName": "尤里新兵",
+    "rules": {
+      "PREREQUISITE": "YABRCK",
+      "TECHLEVEL": "1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:INIT",
+      "gameId": "INIT",
+      "version": "yr",
+      "name": "尤里新兵",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/init.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "BORIS",
+    "sourceName": "菁英戰鬥兵",
+    "rules": {
+      "PREREQUISITE": "NAHAND,NATECH",
+      "TECHLEVEL": "9",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Infantry",
+      "BUILDLIMIT": "1"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:BORIS",
+      "gameId": "BORIS",
+      "version": "yr",
+      "name": "鲍里斯",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/boris.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "BRUTE",
+    "sourceName": "狂獸人",
+    "rules": {
+      "PREREQUISITE": "YABRCK",
+      "TECHLEVEL": "5",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "InfantryDestroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:BRUTE",
+      "gameId": "BRUTE",
+      "version": "yr",
+      "name": "狂兽人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "5",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/brute.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "VIRUS",
+    "sourceName": "病毒狙擊手",
+    "rules": {
+      "PREREQUISITE": "YABRCK,RADAR",
+      "TECHLEVEL": "1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:VIRUS",
+      "gameId": "VIRUS",
+      "version": "yr",
+      "name": "病毒狙击手",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "infantry"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/virus.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CLNT",
+    "sourceName": "Cowboy",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "ARND",
+    "sourceName": "Hero",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "STLN",
+    "sourceName": "Bodybuilder",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAML",
+    "sourceName": "駱駝",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "EINS",
+    "sourceName": "愛因斯坦",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "MUMY",
+    "sourceName": "木乃伊",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "RMNV",
+    "sourceName": "洛馬諾夫總理",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "LUNR",
+    "sourceName": "登月火箭員",
+    "rules": {
+      "JUMPJET": "yes",
+      "PREREQUISITE": "NAPILE,RADAR",
+      "TECHLEVEL": "11",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly",
+      "CONSIDEREDAIRCRAFT": "yes"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "战役月球步兵；普通生产前置 NAPILE 不存在"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOA",
+    "sourceName": "暴龍",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOB",
+    "sourceName": "腕龍",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SLAV",
+    "sourceName": "奴隸",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "WWLF",
+    "sourceName": "木乃伊",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "YDOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "NAHAND",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "尤里国家限定但需要苏军兵营；属于占领工厂后的替代军犬，不列常规"
+  },
+  {
+    "version": "yr",
+    "gameId": "YADOG",
+    "sourceName": "警犬",
+    "rules": {
+      "PREREQUISITE": "GAPILE",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry,British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "YuriCountry",
+      "MOVEMENTZONE": "Infantry"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "尤里国家限定但需要盟军兵营；属于占领工厂后的替代军犬，不列常规"
+  },
+  {
+    "version": "yr",
+    "gameId": "AMCV",
+    "sourceName": "盟軍機動基地車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GADEPT",
+      "TECHLEVEL": "10",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:AMCV",
+      "gameId": "AMCV",
+      "version": "yr",
+      "name": "盟军基地车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/amcv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HARV",
+    "sourceName": "武裝採礦車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,PROC",
+      "TECHLEVEL": "1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:HARV",
+      "gameId": "HARV",
+      "version": "yr",
+      "name": "武装采矿车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/harv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "APOC",
+    "sourceName": "天啟坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NATECH",
+      "TECHLEVEL": "7",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:APOC",
+      "gameId": "APOC",
+      "version": "yr",
+      "name": "天启坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/apoc.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HTNK",
+    "sourceName": "犀牛坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:HTNK",
+      "gameId": "HTNK",
+      "version": "yr",
+      "name": "犀牛坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/htnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SAPC",
+    "sourceName": "裝甲運兵船",
+    "rules": {
+      "PREREQUISITE": "NAYARD",
+      "TECHLEVEL": "2",
+      "NAVAL": "yes",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Amphibious"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SAPC",
+      "gameId": "SAPC",
+      "version": "yr",
+      "name": "苏军运输船",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sapc.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CAR",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "BUS",
+    "sourceName": "校車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "WINI",
+    "sourceName": "休旅車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "PICK",
+    "sourceName": "小貨車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "MTNK",
+    "sourceName": "灰熊坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:MTNK",
+      "gameId": "MTNK",
+      "version": "yr",
+      "name": "灰熊坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mtnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HORV",
+    "sourceName": "武裝採礦車",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKA",
+    "sourceName": "卡車",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKB",
+    "sourceName": "卡車（載貨）",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CARRIER",
+    "sourceName": "航空母艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD,TECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:CARRIER",
+      "gameId": "CARRIER",
+      "version": "yr",
+      "name": "航空母舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/carrier.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "V3",
+    "sourceName": "V3 火箭發射車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NARADR",
+      "TECHLEVEL": "3",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:V3",
+      "gameId": "V3",
+      "version": "yr",
+      "name": "V3 火箭发射车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/v3.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "ZEP",
+    "sourceName": "基洛夫空艇",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NATECH",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:ZEP",
+      "gameId": "ZEP",
+      "version": "yr",
+      "name": "基洛夫空艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/zep.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DRON",
+    "sourceName": "恐怖機器人",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "4",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DRON",
+      "gameId": "DRON",
+      "version": "yr",
+      "name": "恐怖机器人",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dron.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HTK",
+    "sourceName": "防空履帶車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "3",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:HTK",
+      "gameId": "HTK",
+      "version": "yr",
+      "name": "防空履带车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/htk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DEST",
+    "sourceName": "驅逐艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD",
+      "NAVAL": "yes",
+      "TECHLEVEL": "4",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DEST",
+      "gameId": "DEST",
+      "version": "yr",
+      "name": "驱逐舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dest.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SUB",
+    "sourceName": "颱風級攻擊潛艇",
+    "rules": {
+      "PREREQUISITE": "NAYARD",
+      "NAVAL": "yes",
+      "TECHLEVEL": "2",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SUB",
+      "gameId": "SUB",
+      "version": "yr",
+      "name": "台风潜艇",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sub.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "AEGIS",
+    "sourceName": "神盾巡洋艦",
+    "rules": {
+      "PREREQUISITE": "GAYARD,RADAR",
+      "NAVAL": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:AEGIS",
+      "gameId": "AEGIS",
+      "version": "yr",
+      "name": "神盾巡洋舰",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/aegis.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "LCRF",
+    "sourceName": "兩棲運輸艇",
+    "rules": {
+      "PREREQUISITE": "GAYARD",
+      "TECHLEVEL": "4",
+      "NAVAL": "yes",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Amphibious"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:LCRF",
+      "gameId": "LCRF",
+      "version": "yr",
+      "name": "盟军运输船",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/lcrf.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DRED",
+    "sourceName": "無畏級戰艦",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "6",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DRED",
+      "gameId": "DRED",
+      "version": "yr",
+      "name": "无畏级战舰",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dred.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SHAD",
+    "sourceName": "夜鷹直昇機",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SHAD",
+      "gameId": "SHAD",
+      "version": "yr",
+      "name": "夜鹰直升机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "7",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/shad.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SQD",
+    "sourceName": "巨型烏賊",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "TECHLEVEL": "9",
+      "NAVAL": "yes",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SQD",
+      "gameId": "SQD",
+      "version": "yr",
+      "name": "巨型乌贼",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sqd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DLPH",
+    "sourceName": "海豚",
+    "rules": {
+      "PREREQUISITE": "GAYARD,GATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "5",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DLPH",
+      "gameId": "DLPH",
+      "version": "yr",
+      "name": "海豚",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "5",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dlph.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SMCV",
+    "sourceName": "蘇聯機動基地車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NADEPT",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SMCV",
+      "gameId": "SMCV",
+      "version": "yr",
+      "name": "苏军基地车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/smcv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "TNKD",
+    "sourceName": "坦克殺手",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,RADAR",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Germans",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:TNKD",
+      "gameId": "TNKD",
+      "version": "yr",
+      "name": "坦克杀手",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "Germans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tnkd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HOWI",
+    "sourceName": "榴彈砲",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TTNK",
+    "sourceName": "磁能坦克",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,NARADR",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Russians",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:TTNK",
+      "gameId": "TTNK",
+      "version": "yr",
+      "name": "磁能坦克",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Russians"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ttnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HIND",
+    "sourceName": "雌鹿運輸直昇機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Confederation",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "LTNK",
+    "sourceName": "狂風坦克",
+    "rules": {
+      "PREREQUISITE": "YAWEAP",
+      "TECHLEVEL": "2",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:LTNK",
+      "gameId": "LTNK",
+      "version": "yr",
+      "name": "狂风坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ltnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CMON",
+    "sourceName": "超時空採礦車",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMIN",
+    "sourceName": "超時空採礦車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,PROC",
+      "TECHLEVEL": "1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:CMIN",
+      "gameId": "CMIN",
+      "version": "yr",
+      "name": "超时空采矿车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/cmin.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SREF",
+    "sourceName": "光稜坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "8",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SREF",
+      "gameId": "SREF",
+      "version": "yr",
+      "name": "光棱坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "8",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/sref.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "XCOMET",
+    "sourceName": "位置標定器",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "HYD",
+    "sourceName": "海蠍",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NARADR",
+      "NAVAL": "yes",
+      "TECHLEVEL": "6",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:HYD",
+      "gameId": "HYD",
+      "version": "yr",
+      "name": "海蝎",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "6",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/hyd.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "MGTK",
+    "sourceName": "幻影坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "9",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:MGTK",
+      "gameId": "MGTK",
+      "version": "yr",
+      "name": "幻影坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "9",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mgtk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "FV",
+    "sourceName": "多功能步兵戰鬥車",
+    "rules": {
+      "PREREQUISITE": "GAWEAP",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:FV",
+      "gameId": "FV",
+      "version": "yr",
+      "name": "多功能步兵车",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/fv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DEATHDUMMY",
+    "sourceName": "DeathDummy",
+    "rules": {},
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "VLAD",
+    "sourceName": "維拉迪摩指揮艦",
+    "rules": {
+      "PREREQUISITE": "NAYARD,NATECH",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "FORBIDDENHOUSES": "Russians",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "DTRUCK",
+    "sourceName": "自爆卡車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,RADAR",
+      "TECHLEVEL": "10",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "REQUIREDHOUSES": "Africans",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DTRUCK",
+      "gameId": "DTRUCK",
+      "version": "yr",
+      "name": "自爆卡车",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "10",
+      "countries": [
+        "Africans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/dtruck.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "PROPA",
+    "sourceName": "宣傳車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CONA",
+    "sourceName": "挖土機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "COP",
+    "sourceName": "警車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "EUROC",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "LIMO",
+    "sourceName": "豪華轎車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "STANG",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVB",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVW",
+    "sourceName": "汽車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TAXI",
+    "sourceName": "計程車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "PTRUCK",
+    "sourceName": "小貨車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CRUISE",
+    "sourceName": "遊輪",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "TUG",
+    "sourceName": "拖船",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CDEST",
+    "sourceName": "海岸巡防艇",
+    "rules": {
+      "NAVAL": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "YHVR",
+    "sourceName": "裝甲運兵船",
+    "rules": {
+      "PREREQUISITE": "YAYARD",
+      "TECHLEVEL": "2",
+      "NAVAL": "yes",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Amphibious"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:YHVR",
+      "gameId": "YHVR",
+      "version": "yr",
+      "name": "尤里运输船",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/yhvr.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "PCV",
+    "sourceName": "尤里機動基地車",
+    "rules": {
+      "PREREQUISITE": "YAWEAP,YAGRND",
+      "TECHLEVEL": "10",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:PCV",
+      "gameId": "PCV",
+      "version": "yr",
+      "name": "尤里基地车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "10",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/pcv.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SMIN",
+    "sourceName": "奴隸礦場",
+    "rules": {
+      "PREREQUISITE": "YAWEAP",
+      "TECHLEVEL": "1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SMIN",
+      "gameId": "SMIN",
+      "version": "yr",
+      "name": "奴隶矿车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "1",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/smin.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SMON",
+    "sourceName": "超時空採礦車（未裝載）",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Crusher"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "YCAB",
+    "sourceName": "黃色計程車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "YTNK",
+    "sourceName": "蓋特機砲坦克",
+    "rules": {
+      "PREREQUISITE": "YAWEAP",
+      "TECHLEVEL": "4",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:YTNK",
+      "gameId": "YTNK",
+      "version": "yr",
+      "name": "盖特机炮坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/ytnk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "BFRT",
+    "sourceName": "戰鬥要塞",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GATECH",
+      "TECHLEVEL": "10",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "CrusherAll"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:BFRT",
+      "gameId": "BFRT",
+      "version": "yr",
+      "name": "战斗要塞",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "10",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/bfrt.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "TELE",
+    "sourceName": "磁電坦克",
+    "rules": {
+      "PREREQUISITE": "YAWEAP,NAPSIS",
+      "TECHLEVEL": "2",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:TELE",
+      "gameId": "TELE",
+      "version": "yr",
+      "name": "磁电坦克",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/tele.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CAOS",
+    "sourceName": "神經突擊車",
+    "rules": {
+      "PREREQUISITE": "YAWEAP",
+      "TECHLEVEL": "4",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:CAOS",
+      "gameId": "CAOS",
+      "version": "yr",
+      "name": "混乱机器人",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "4",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/caos.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DDBX",
+    "sourceName": "巴士",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "BCAB",
+    "sourceName": "黑色計程車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "BSUB",
+    "sourceName": "雷鳴攻擊潛艦",
+    "rules": {
+      "PREREQUISITE": "YAYARD,RADAR",
+      "NAVAL": "yes",
+      "TECHLEVEL": "2",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Water"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:BSUB",
+      "gameId": "BSUB",
+      "version": "yr",
+      "name": "雷鸣攻击潜艇",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "naval"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/bsub.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "SCHP",
+    "sourceName": "武裝直升機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP,TECH",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "7",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:SCHP",
+      "gameId": "SCHP",
+      "version": "yr",
+      "name": "武装直升机",
+      "faction": "soviet",
+      "factions": [
+        "soviet"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "7",
+      "countries": [
+        "Russians",
+        "Confederation",
+        "Africans",
+        "Arabs"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/schp.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "JEEP",
+    "sourceName": "卡車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "MIND",
+    "sourceName": "精神控制車",
+    "rules": {
+      "PREREQUISITE": "YAWEAP,YATECH",
+      "TECHLEVEL": "2",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:MIND",
+      "gameId": "MIND",
+      "version": "yr",
+      "name": "精神控制车",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/mind.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "DISK",
+    "sourceName": "雷射幽浮",
+    "rules": {
+      "PREREQUISITE": "YAWEAP,YATECH",
+      "TECHLEVEL": "2",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Fly",
+      "CONSIDEREDAIRCRAFT": "yes"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:DISK",
+      "gameId": "DISK",
+      "version": "yr",
+      "name": "镭射幽浮",
+      "faction": "yuri",
+      "factions": [
+        "yuri"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "lab",
+      "techLevelRaw": "2",
+      "countries": [
+        "YuriCountry"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/disk.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "UTNK",
+    "sourceName": "ZZZ Not Used",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Destroyer"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "ROBO",
+    "sourceName": "遙控坦克",
+    "rules": {
+      "PREREQUISITE": "GAWEAP,GAROBO",
+      "TECHLEVEL": "2",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "AmphibiousDestroyer"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:ROBO",
+      "gameId": "ROBO",
+      "version": "yr",
+      "name": "遥控坦克",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "ground"
+      ],
+      "rankingPool": "regular",
+      "techStage": "basic",
+      "techLevelRaw": "2",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans",
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/robo.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "YDUM",
+    "sourceName": "YDUM",
+    "rules": {},
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SCHD",
+    "sourceName": "武裝直升機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "JUMPJET": "yes",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "DOLY",
+    "sourceName": "攝影車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CBLC",
+    "sourceName": "電車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "FTRK",
+    "sourceName": "救火車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "AMBU",
+    "sourceName": "救護車",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVP",
+    "sourceName": "民航機",
+    "rules": {
+      "PREREQUISITE": "NAWEAP",
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Normal"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "APACHE",
+    "sourceName": "APACHE",
+    "rules": {},
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "ORCA",
+    "sourceName": "入侵者戰機",
+    "rules": {
+      "PREREQUISITE": "RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans",
+      "FORBIDDENHOUSES": "Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:ORCA",
+      "gameId": "ORCA",
+      "version": "yr",
+      "name": "入侵者战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "British",
+        "French",
+        "Germans",
+        "Americans"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/orca.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "HORNET",
+    "sourceName": "黃蜂",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "V3ROCKET",
+    "sourceName": "V3 火箭",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "ASW",
+    "sourceName": "鶚式運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "DMISL",
+    "sourceName": "飛彈",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "Russians,Confederation,Africans,Arabs",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "PDPLANE",
+    "sourceName": "運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "BEAG",
+    "sourceName": "黑鷹戰機",
+    "rules": {
+      "PREREQUISITE": "RADAR",
+      "TECHLEVEL": "3",
+      "OWNER": "British,French,Germans,Americans,Alliance",
+      "REQUIREDHOUSES": "Alliance",
+      "CONSIDEREDAIRCRAFT": "yes",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "included",
+    "rankingPool": "regular",
+    "reason": "合法国家与正常生产链核对通过",
+    "classification": {
+      "id": "unit:yr:BEAG",
+      "gameId": "BEAG",
+      "version": "yr",
+      "name": "黑鹰战机",
+      "faction": "allied",
+      "factions": [
+        "allied"
+      ],
+      "categories": [
+        "air"
+      ],
+      "rankingPool": "regular",
+      "techStage": "radar",
+      "techLevelRaw": "3",
+      "countries": [
+        "Alliance"
+      ],
+      "iconPath": "./assets/unit-icons/yr/units/beag.png",
+      "kind": "unit",
+      "acquisition": ""
+    }
+  },
+  {
+    "version": "yr",
+    "gameId": "CARGOPLANE",
+    "sourceName": "運輸機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "BPLN",
+    "sourceName": "米格戰機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "SPYP",
+    "sourceName": "偵察機",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMISL",
+    "sourceName": "飛彈",
+    "rules": {
+      "TECHLEVEL": "-1",
+      "OWNER": "YuriCountry",
+      "MOVEMENTZONE": "Fly"
+    },
+    "inclusion": "excluded",
+    "rankingPool": "excluded",
+    "reason": "TechLevel 未开放：战役／平民／派生／废弃条目"
+  }
+]

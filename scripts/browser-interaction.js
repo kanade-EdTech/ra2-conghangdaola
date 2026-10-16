@@ -1,0 +1,103 @@
+async (page) => {
+  const results = [], errors = [];
+  const check = (ok, label) => { if (!ok) throw new Error('FAIL: ' + label); results.push(label); };
+  const browser = page.context().browser();
+  const ids = ['america','britain','france','germany','korea','russia','iraq','cuba','libya'];
+  const board = { title: '0.1.0 旧草稿', tiers: { hang: ids.slice(0,4), top: [], elite: [], npc: [], la: [] }, unranked: ids.slice(4) };
+  const seed = { schemaVersion: 1, activeVersion: 'ra2', boards: { ra2: board, yr: { title:'尤复', tiers:{hang:[],top:[],elite:[],npc:[],la:[]}, unranked:ids.concat('yuri') } } };
+  for (const fallback of [false, true]) {
+    const context = await browser.newContext({ viewport: { width:390, height:844 }, hasTouch:true, isMobile:true });
+    try {
+      await context.addInitScript(({ seed, fallback }) => {
+        localStorage.setItem('ra2-tier-list:save:v1', JSON.stringify(seed));
+        if (fallback) { Object.defineProperty(window,'PointerEvent',{value:undefined}); Object.defineProperty(window,'visualViewport',{value:undefined}); }
+      }, { seed, fallback });
+      const p = await context.newPage();
+      p.on('pageerror', e => errors.push(e.message));
+      await p.goto('http://127.0.0.1:4175/dist/xhs/index.html');
+      const cdp = await context.newCDPSession(p);
+      const touch = (type, points) => cdp.send('Input.dispatchTouchEvent', { type, touchPoints:points });
+      const center = async selector => { const b = await p.locator(selector).boundingBox(); return {x:b.x+b.width/2,y:b.y+b.height/2,id:1}; };
+      const list = zone => p.locator('[data-dropzone="'+zone+'"] [data-item]').evaluateAll(ns => ns.map(n=>n.dataset.item));
+      const begin = async id => { await p.locator('[data-item="'+id+'"]').evaluate(node=>node.scrollIntoView({block:'center'})); const a = await center('[data-item="'+id+'"] .card-main'); await touch('touchStart',[a]); return a; };
+      const end = () => touch('touchEnd',[]);
+      const prefix = fallback ? 'Touch 回退：' : 'Pointer：';
+      check(await p.locator('#board-title').inputValue() === '0.1.0 旧草稿' && (await list('hang')).length===4, prefix+'直接恢复 v1 草稿');
+      await p.locator('[data-item="america"] .card-main').tap();
+      check(await p.locator('[data-item="america"] .card-main').getAttribute('aria-pressed')==='true' && await p.locator('#modal-overlay').isHidden(), prefix+'点按只选中，不自动弹窗');
+      await begin('america');
+      const target = await center('[data-dropzone="top"]');
+      await touch('touchMove',[target]);
+      await p.waitForTimeout(60);
+      check(await p.locator('.drag-ghost').count()===1 && (await list('hang')).length===4, prefix+'整卡起拖只预览，不修改业务布局');
+      if (!fallback) await p.screenshot({path:'output/playwright/0.3.0-country-mobile-dragging.png'});
+      await end();
+      check((await list('top')).join()==='america', prefix+'真实触摸跨档落位');
+      if (!fallback) await p.screenshot({path:'output/playwright/0.3.0-country-mobile-dropped.png'});
+      await p.locator('#undo-button').tap();
+      check((await list('hang')).join()===ids.slice(0,4).join() && await p.locator('#undo-button').isDisabled(), prefix+'一次拖动恰好一次撤销');
+      await begin('america'); await touch('touchMove',[{x:5,y:50,id:1}]); await end();
+      check(await p.locator('#undo-button').isDisabled() && await p.locator('.drag-ghost').count()===0, prefix+'无效落点零提交并清理');
+      const same = await begin('america');
+      await touch('touchMove',[{x:same.x+10,y:same.y+3,id:1}]); await end();
+      check(await p.locator('#undo-button').isDisabled(), prefix+'原位落下不新增撤销');
+      const a = await begin('america');
+      await touch('touchMove',[{x:a.x+15,y:a.y+20,id:1}]);
+      await touch('touchStart',[{x:a.x+15,y:a.y+20,id:1},{x:35,y:240,id:2}]);
+      check(await p.locator('.drag-ghost').count()===0, prefix+'第二触点立即取消');
+      await touch('touchMove',[{x:target.x,y:target.y,id:1},{x:35,y:260,id:2}]);
+      await end();
+      check(await p.locator('#undo-button').isDisabled(), prefix+'双指中断不提交');
+      await p.locator('[data-item="america"] .card-main').tap();
+      await p.locator('#selection-edit').tap();
+      check(await p.locator('#modal-overlay').isVisible(), prefix+'中断后立即点选与打开面板正常');
+      await p.getByRole('button',{name:'关闭弹窗',exact:true}).tap();
+      await begin('germany');
+      const first = await p.locator('[data-item="america"]').boundingBox();
+      await touch('touchMove',[{x:first.x+4,y:first.y+30,id:1}]); await end();
+      check((await list('hang')).join()==='germany,america,britain,france', prefix+'换行末项移至首项');
+      await p.locator('#undo-button').tap();
+      const c = await begin('america'); await touch('touchMove',[{x:c.x+20,y:c.y+20,id:1}]);
+      await p.keyboard.press('Escape'); await end();
+      check(await p.locator('#undo-button').isDisabled() && await p.locator('.is-dragging').count()===0, prefix+'Escape 取消且零历史');
+      await begin('america');
+      await touch('touchMove',[{x:target.x,y:target.y,id:1}]);
+      await touch('touchCancel',[]);
+      check(await p.locator('.drag-ghost').count()===0 && await p.locator('#undo-button').isDisabled(), prefix+'touchCancel 清理');
+      await p.evaluate(()=>scrollTo(0,0));
+      await touch('touchStart',[{x:40,y:620,id:1}]);
+      await touch('touchMove',[{x:40,y:340,id:1}]); await end();
+      check(await p.evaluate(()=>scrollY)>0, prefix+'左侧档位保留原生触摸滚动');
+      await p.evaluate(()=>scrollTo(0,0));
+      await begin('america');
+      await touch('touchMove',[{x:250,y:500,id:1}]);
+      const bar = await p.locator('#selection-bar').boundingBox();
+      const before = await p.evaluate(()=>scrollY);
+      await touch('touchMove',[{x:250,y:bar.y-5,id:1}]);
+      await p.waitForTimeout(650);
+      check(await p.evaluate(()=>scrollY)>before+50, prefix+'停指在底部边缘仍自动滚动');
+      await p.keyboard.press('Escape'); await end();
+      const stopped = await p.evaluate(()=>scrollY);
+      await p.waitForTimeout(120);
+      check(await p.evaluate(()=>scrollY)===stopped && await p.locator('.drag-ghost').count()===0, prefix+'取消立即停止边缘滚动');
+      // Head to the pool and drag upward without a new move event during scrolling.
+      await begin('korea');
+      const navigationBottom=await p.locator('.top-navigation').evaluate(n=>n.getBoundingClientRect().bottom);
+      await touch('touchMove',[{x:250,y:Math.max(10,navigationBottom+10),id:1}]);
+      const beforeUp = await p.evaluate(()=>scrollY);
+      await p.waitForTimeout(650);
+      check(await p.evaluate(()=>scrollY)<beforeUp-30, prefix+'顶部边缘向上滚动');
+      await p.keyboard.press('Escape'); await end();
+      await p.evaluate(()=>scrollTo(0,0));
+      const d = await begin('america'); await touch('touchMove',[{x:d.x+20,y:d.y+20,id:1}]);
+      await p.setViewportSize({width:430,height:844}); await end();
+      check(await p.locator('.drag-ghost').count()===0 && await p.locator('#undo-button').isDisabled(), prefix+'视口改变取消手势');
+      await p.locator('[data-item="britain"] .card-main').focus();
+      await p.keyboard.press('Enter');
+      check(await p.locator('[data-item="britain"] .card-main').getAttribute('aria-pressed')==='true', prefix+'键盘激活选中');
+      await cdp.detach();
+    } finally { await context.close(); }
+  }
+  check(errors.length===0,'新交互流程无未捕获异常');
+  return {checks:results,errors};
+}

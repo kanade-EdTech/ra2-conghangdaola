@@ -1,0 +1,25 @@
+{
+  "note": "原样复制 CnCNet 阵营标志；neutral 使用未指定阵营标志。",
+  "icons": {
+    "allied": {
+      "source": "D:\\Red_Alet_II\\CNCNET\\Resources\\Alliedicon.png",
+      "path": "assets/factions/allied.png",
+      "sha256": "820176e5857a6df1253c6f2ca70dc4343bb73e7b8176c7f1c731ffac24eb311d"
+    },
+    "soviet": {
+      "source": "D:\\Red_Alet_II\\CNCNET\\Resources\\Sovieticon.png",
+      "path": "assets/factions/soviet.png",
+      "sha256": "4f3c5426d46fd972f40cd54c901fe6006095d0c1b9eb50dedcbeb81419bfa253"
+    },
+    "yuri": {
+      "source": "D:\\Red_Alet_II\\CNCNET\\Resources\\Yuriicon.png",
+      "path": "assets/factions/yuri.png",
+      "sha256": "e5a972e801f0f787281042a3bf05dc931ca8c26b2f7163571beaa3269b3a2d4f"
+    },
+    "neutral": {
+      "source": "D:\\Red_Alet_II\\CNCNET\\Resources\\randomicon.png",
+      "path": "assets/factions/neutral.png",
+      "sha256": "814731ff2fa43769cf76cc258ad9c4c9dd78427330c851c3b37b2667f41c14ef"
+    }
+  }
+}

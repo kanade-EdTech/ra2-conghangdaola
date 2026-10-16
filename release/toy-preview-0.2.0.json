@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "title": "红警 2：从夯到拉",
+  "slug": "ra2-conghangdaola",
+  "category": "TOOL",
+  "visibility": "link-only",
+  "source": "ra2-tier-list-toy-0.2.0.zip",
+  "sha256": "600d450dc06217d99a1f3ff83eaeb50dba0a81eb371bb2ac55e74f57e464d7de",
+  "preview_url": "https://www.bilibili.com/toy/preview/preview_uRRrLsdA/index.html",
+  "review_submitted": false,
+  "default_title": "国家强度排序",
+  "legacy_default_title_migration": true
+}

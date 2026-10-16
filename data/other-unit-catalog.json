@@ -1,0 +1,2732 @@
+[
+  {
+    "id": "unit:ra2:GHOST",
+    "gameId": "GHOST",
+    "version": "ra2",
+    "name": "海豹突击队",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/ra2/units/ghost.png",
+    "sourceIconPath": "./assets/unit-icons/ra2/units/ghost.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIV1",
+    "gameId": "CIV1",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIV2",
+    "gameId": "CIV2",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIV3",
+    "gameId": "CIV3",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CTECH",
+    "gameId": "CTECH",
+    "version": "ra2",
+    "name": "技師",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:WEEDGUY",
+    "gameId": "WEEDGUY",
+    "version": "ra2",
+    "name": "化學兵",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:COW",
+    "gameId": "COW",
+    "version": "ra2",
+    "name": "奶牛",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:ALL",
+    "gameId": "ALL",
+    "version": "ra2",
+    "name": "鳄鱼",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:VLADIMIR",
+    "gameId": "VLADIMIR",
+    "version": "ra2",
+    "name": "维拉迪摩将军",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/vladimir.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PENTGEN",
+    "gameId": "PENTGEN",
+    "version": "ra2",
+    "name": "五角大楼将军",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/pentgen.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PRES",
+    "gameId": "PRES",
+    "version": "ra2",
+    "name": "美国总统",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/pres.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:SSRV",
+    "gameId": "SSRV",
+    "version": "ra2",
+    "name": "特勤保镖",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/ssrv.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVA",
+    "gameId": "CIVA",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVB",
+    "gameId": "CIVB",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVC",
+    "gameId": "CIVC",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVBBP",
+    "gameId": "CIVBBP",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVBFM",
+    "gameId": "CIVBFM",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVBF",
+    "gameId": "CIVBF",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVBTM",
+    "gameId": "CIVBTM",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVSFM",
+    "gameId": "CIVSFM",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVSF",
+    "gameId": "CIVSF",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CIVSTM",
+    "gameId": "CIVSTM",
+    "version": "ra2",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:POLARB",
+    "gameId": "POLARB",
+    "version": "ra2",
+    "name": "北极熊",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:JOSH",
+    "gameId": "JOSH",
+    "version": "ra2",
+    "name": "猴子",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CAR",
+    "gameId": "CAR",
+    "version": "ra2",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:BUS",
+    "gameId": "BUS",
+    "version": "ra2",
+    "name": "校車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:WINI",
+    "gameId": "WINI",
+    "version": "ra2",
+    "name": "野營車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PICK",
+    "gameId": "PICK",
+    "version": "ra2",
+    "name": "小貨車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:HORV",
+    "gameId": "HORV",
+    "version": "ra2",
+    "name": "武裝採礦車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:TRUCKA",
+    "gameId": "TRUCKA",
+    "version": "ra2",
+    "name": "民用卡车",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/trucka.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:TRUCKB",
+    "gameId": "TRUCKB",
+    "version": "ra2",
+    "name": "卡車（載貨）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:HOWI",
+    "gameId": "HOWI",
+    "version": "ra2",
+    "name": "榴彈砲",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:HIND",
+    "gameId": "HIND",
+    "version": "ra2",
+    "name": "雌鹿运输直升机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/ra2/units/hind.png",
+    "sourceIconPath": "./assets/unit-icons/ra2/units/hind.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:LTNK",
+    "gameId": "LTNK",
+    "version": "ra2",
+    "name": "輕坦克",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CMON",
+    "gameId": "CMON",
+    "version": "ra2",
+    "name": "超時空採礦車（未裝載）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:XCOMET",
+    "gameId": "XCOMET",
+    "version": "ra2",
+    "name": "隐藏测试战车",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/xcomet.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:VLAD",
+    "gameId": "VLAD",
+    "version": "ra2",
+    "name": "维拉迪摩指挥舰",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/vlad.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PROPA",
+    "gameId": "PROPA",
+    "version": "ra2",
+    "name": "宣傳車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CONA",
+    "gameId": "CONA",
+    "version": "ra2",
+    "name": "挖土機",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:COP",
+    "gameId": "COP",
+    "version": "ra2",
+    "name": "警車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:EUROC",
+    "gameId": "EUROC",
+    "version": "ra2",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:LIMO",
+    "gameId": "LIMO",
+    "version": "ra2",
+    "name": "豪華轎車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:STANG",
+    "gameId": "STANG",
+    "version": "ra2",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:SUVB",
+    "gameId": "SUVB",
+    "version": "ra2",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:SUVW",
+    "gameId": "SUVW",
+    "version": "ra2",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:TAXI",
+    "gameId": "TAXI",
+    "version": "ra2",
+    "name": "計程車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PTRUCK",
+    "gameId": "PTRUCK",
+    "version": "ra2",
+    "name": "小貨車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CRUISE",
+    "gameId": "CRUISE",
+    "version": "ra2",
+    "name": "遊輪",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:TUG",
+    "gameId": "TUG",
+    "version": "ra2",
+    "name": "拖船",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CDEST",
+    "gameId": "CDEST",
+    "version": "ra2",
+    "name": "海岸巡防艇",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:PDPLANE",
+    "gameId": "PDPLANE",
+    "version": "ra2",
+    "name": "伞兵运输机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/ra2/units/pdplane.png",
+    "sourceIconPath": "./assets/unit-icons/ra2/units/pdplane.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:ra2:CARGOPLANE",
+    "gameId": "CARGOPLANE",
+    "version": "ra2",
+    "name": "战役运输机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/ra2/units/cargoplane.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIV1",
+    "gameId": "CIV1",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIV2",
+    "gameId": "CIV2",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIV3",
+    "gameId": "CIV3",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CTECH",
+    "gameId": "CTECH",
+    "version": "yr",
+    "name": "技師",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:WEEDGUY",
+    "gameId": "WEEDGUY",
+    "version": "yr",
+    "name": "化學兵",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:COW",
+    "gameId": "COW",
+    "version": "yr",
+    "name": "奶牛",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:ALL",
+    "gameId": "ALL",
+    "version": "yr",
+    "name": "鳄鱼",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:VLADIMIR",
+    "gameId": "VLADIMIR",
+    "version": "yr",
+    "name": "维拉迪摩将军",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/vladimir.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PENTGEN",
+    "gameId": "PENTGEN",
+    "version": "yr",
+    "name": "五角大楼将军",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/pentgen.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PRES",
+    "gameId": "PRES",
+    "version": "yr",
+    "name": "美国总统",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/pres.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SSRV",
+    "gameId": "SSRV",
+    "version": "yr",
+    "name": "特勤保镖",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/ssrv.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVA",
+    "gameId": "CIVA",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVB",
+    "gameId": "CIVB",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVC",
+    "gameId": "CIVC",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVBBP",
+    "gameId": "CIVBBP",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVBFM",
+    "gameId": "CIVBFM",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVBF",
+    "gameId": "CIVBF",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVBTM",
+    "gameId": "CIVBTM",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVSFM",
+    "gameId": "CIVSFM",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVSF",
+    "gameId": "CIVSF",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVSTM",
+    "gameId": "CIVSTM",
+    "version": "yr",
+    "name": "平民",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:POLARB",
+    "gameId": "POLARB",
+    "version": "yr",
+    "name": "北极熊",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:JOSH",
+    "gameId": "JOSH",
+    "version": "yr",
+    "name": "猴子",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CLNT",
+    "gameId": "CLNT",
+    "version": "yr",
+    "name": "牛仔",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:ARND",
+    "gameId": "ARND",
+    "version": "yr",
+    "name": "英雄",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/arnd.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:STLN",
+    "gameId": "STLN",
+    "version": "yr",
+    "name": "健美先生",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/stln.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CAML",
+    "gameId": "CAML",
+    "version": "yr",
+    "name": "骆驼",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:EINS",
+    "gameId": "EINS",
+    "version": "yr",
+    "name": "爱因斯坦",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:MUMY",
+    "gameId": "MUMY",
+    "version": "yr",
+    "name": "木乃伊",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:RMNV",
+    "gameId": "RMNV",
+    "version": "yr",
+    "name": "罗曼诺夫总理",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/rmnv.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:LUNR",
+    "gameId": "LUNR",
+    "version": "yr",
+    "name": "登月火箭员",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/yr/units/lunr.png",
+    "sourceIconPath": "./assets/unit-icons/yr/units/lunr.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:DNOA",
+    "gameId": "DNOA",
+    "version": "yr",
+    "name": "暴龙",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:DNOB",
+    "gameId": "DNOB",
+    "version": "yr",
+    "name": "腕龙",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SLAV",
+    "gameId": "SLAV",
+    "version": "yr",
+    "name": "奴隶",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "yuri",
+    "factions": [
+      "yuri"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/slav.png",
+    "iconFaction": "yuri",
+    "national": false
+  },
+  {
+    "id": "unit:yr:WWLF",
+    "gameId": "WWLF",
+    "version": "yr",
+    "name": "木乃伊",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:YDOG",
+    "gameId": "YDOG",
+    "version": "yr",
+    "name": "尤里军犬（苏军型）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "yuri",
+    "factions": [
+      "yuri"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/ydog.png",
+    "iconFaction": "yuri",
+    "national": false
+  },
+  {
+    "id": "unit:yr:YADOG",
+    "gameId": "YADOG",
+    "version": "yr",
+    "name": "尤里军犬（盟军型）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "yuri",
+    "factions": [
+      "yuri"
+    ],
+    "categories": [
+      "infantry"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/yadog.png",
+    "iconFaction": "yuri",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CAR",
+    "gameId": "CAR",
+    "version": "yr",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:BUS",
+    "gameId": "BUS",
+    "version": "yr",
+    "name": "校車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:WINI",
+    "gameId": "WINI",
+    "version": "yr",
+    "name": "休旅車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PICK",
+    "gameId": "PICK",
+    "version": "yr",
+    "name": "小貨車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:HORV",
+    "gameId": "HORV",
+    "version": "yr",
+    "name": "武裝採礦車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:TRUCKA",
+    "gameId": "TRUCKA",
+    "version": "yr",
+    "name": "民用卡车",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/trucka.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:TRUCKB",
+    "gameId": "TRUCKB",
+    "version": "yr",
+    "name": "卡車（載貨）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:HOWI",
+    "gameId": "HOWI",
+    "version": "yr",
+    "name": "榴彈砲",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:HIND",
+    "gameId": "HIND",
+    "version": "yr",
+    "name": "雌鹿运输直升机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/yr/units/hind.png",
+    "sourceIconPath": "./assets/unit-icons/yr/units/hind.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CMON",
+    "gameId": "CMON",
+    "version": "yr",
+    "name": "超時空採礦車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:XCOMET",
+    "gameId": "XCOMET",
+    "version": "yr",
+    "name": "隐藏测试战车",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "allied",
+    "factions": [
+      "allied"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/xcomet.png",
+    "iconFaction": "allied",
+    "national": false
+  },
+  {
+    "id": "unit:yr:VLAD",
+    "gameId": "VLAD",
+    "version": "yr",
+    "name": "维拉迪摩指挥舰",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/vlad.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PROPA",
+    "gameId": "PROPA",
+    "version": "yr",
+    "name": "宣傳車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CONA",
+    "gameId": "CONA",
+    "version": "yr",
+    "name": "挖土機",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:COP",
+    "gameId": "COP",
+    "version": "yr",
+    "name": "警車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:EUROC",
+    "gameId": "EUROC",
+    "version": "yr",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:LIMO",
+    "gameId": "LIMO",
+    "version": "yr",
+    "name": "豪華轎車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:STANG",
+    "gameId": "STANG",
+    "version": "yr",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SUVB",
+    "gameId": "SUVB",
+    "version": "yr",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SUVW",
+    "gameId": "SUVW",
+    "version": "yr",
+    "name": "汽車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:TAXI",
+    "gameId": "TAXI",
+    "version": "yr",
+    "name": "計程車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PTRUCK",
+    "gameId": "PTRUCK",
+    "version": "yr",
+    "name": "小貨車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CRUISE",
+    "gameId": "CRUISE",
+    "version": "yr",
+    "name": "遊輪",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:TUG",
+    "gameId": "TUG",
+    "version": "yr",
+    "name": "拖船",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CDEST",
+    "gameId": "CDEST",
+    "version": "yr",
+    "name": "海岸巡防艇",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "naval"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SMON",
+    "gameId": "SMON",
+    "version": "yr",
+    "name": "超時空採礦車（未裝載）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "yuri",
+    "factions": [
+      "yuri"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "yuri",
+    "national": false
+  },
+  {
+    "id": "unit:yr:YCAB",
+    "gameId": "YCAB",
+    "version": "yr",
+    "name": "黃色計程車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:DDBX",
+    "gameId": "DDBX",
+    "version": "yr",
+    "name": "巴士",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:BCAB",
+    "gameId": "BCAB",
+    "version": "yr",
+    "name": "黑色計程車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:JEEP",
+    "gameId": "JEEP",
+    "version": "yr",
+    "name": "卡車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:UTNK",
+    "gameId": "UTNK",
+    "version": "yr",
+    "name": "未使用战车",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/utnk.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SCHD",
+    "gameId": "SCHD",
+    "version": "yr",
+    "name": "武装直升机（隐藏形态）",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "soviet",
+    "factions": [
+      "soviet"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "hidden",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/schd.png",
+    "iconFaction": "soviet",
+    "national": false
+  },
+  {
+    "id": "unit:yr:DOLY",
+    "gameId": "DOLY",
+    "version": "yr",
+    "name": "攝影車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CBLC",
+    "gameId": "CBLC",
+    "version": "yr",
+    "name": "電車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:FTRK",
+    "gameId": "FTRK",
+    "version": "yr",
+    "name": "救火車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:AMBU",
+    "gameId": "AMBU",
+    "version": "yr",
+    "name": "救護車",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CIVP",
+    "gameId": "CIVP",
+    "version": "yr",
+    "name": "民航機",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "ground"
+    ],
+    "source": "civilian",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": null,
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:PDPLANE",
+    "gameId": "PDPLANE",
+    "version": "yr",
+    "name": "伞兵运输机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/yr/units/pdplane.png",
+    "sourceIconPath": "./assets/unit-icons/yr/units/pdplane.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:CARGOPLANE",
+    "gameId": "CARGOPLANE",
+    "version": "yr",
+    "name": "战役运输机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": null,
+    "sourceIconPath": "./assets/unit-icons/yr/units/cargoplane.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:BPLN",
+    "gameId": "BPLN",
+    "version": "yr",
+    "name": "米格支援战机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/yr/units/bpln.png",
+    "sourceIconPath": "./assets/unit-icons/yr/units/bpln.png",
+    "iconFaction": "neutral",
+    "national": false
+  },
+  {
+    "id": "unit:yr:SPYP",
+    "gameId": "SPYP",
+    "version": "yr",
+    "name": "侦察机",
+    "kind": "unit",
+    "rankingPool": "others",
+    "faction": "neutral",
+    "factions": [
+      "neutral"
+    ],
+    "categories": [
+      "air"
+    ],
+    "source": "campaign",
+    "techStage": null,
+    "iconPath": "./assets/unit-icons/yr/units/spyp.png",
+    "sourceIconPath": "./assets/unit-icons/yr/units/spyp.png",
+    "iconFaction": "neutral",
+    "national": false
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-16",
+  "id": "43912508997632",
+  "title": "红警 2：从夯到拉",
+  "slug": "ra2-conghangdaola",
+  "version": "0.4.0",
+  "preview_url": "https://www.bilibili.com/toy/preview/preview_nXbLlcZy/index.html",
+  "source_sha256": "80b3f7523b2512ad9ce428e174b46bea822a15216863573b4fde0cab1c8ee4d7",
+  "review_submitted": false,
+  "operation": "update-preview",
+  "remote_verification": {
+    "httpStatus": 200,
+    "files": [
+      "index.html",
+      "core/catalog.js",
+      "core/ranking.js",
+      "export/poster.js",
+      "data/buildings.js"
+    ],
+    "entry_transform": "Toy-injected redirect script excluded before comparison",
+    "matchesLocal": true
+  }
+}

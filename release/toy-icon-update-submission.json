@@ -1,0 +1,18 @@
+{
+  "toy_id": 43912508997632,
+  "title": "红警 2：从夯到拉",
+  "icon": "toy-icon-0.2.0.png",
+  "icon_size": [
+    512,
+    512
+  ],
+  "icon_bytes": 482726,
+  "sha256": "a14a77f675bbcfa9e1426858fd2bf1910c7780de633992304296e659d0c87d75",
+  "original": "toy-icon-liberty-kirov-original.png",
+  "previous_icon": "toy-icon-0.2.0-brand.png",
+  "submitted": true,
+  "description": "自由女神像旁飞过基洛夫空艇",
+  "status": "auditing",
+  "submitted_date": "2026-10-14",
+  "url": "https://www.bilibili.com/toy/ra2-conghangdaola/index.html"
+}

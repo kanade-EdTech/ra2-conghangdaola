@@ -1,0 +1,1010 @@
+[
+  {
+    "version": "ra2",
+    "gameId": "GHOST",
+    "sourceName": "海豹部隊",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV1",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV2",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIV3",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CTECH",
+    "sourceName": "技師",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WEEDGUY",
+    "sourceName": "化學兵",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "COW",
+    "sourceName": "乳牛",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ALL",
+    "sourceName": "鱷魚",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLADIMIR",
+    "sourceName": "平民",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PENTGEN",
+    "sourceName": "平民",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PRES",
+    "sourceName": "總統",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SSRV",
+    "sourceName": "終極保鏢",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVA",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVB",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVC",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBBP",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBFM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBF",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVBTM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSFM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSF",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CIVSTM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "POLARB",
+    "sourceName": "北極熊",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "JOSH",
+    "sourceName": "猴子",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CAR",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "BUS",
+    "sourceName": "校車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "WINI",
+    "sourceName": "野營車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PICK",
+    "sourceName": "小貨車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORV",
+    "sourceName": "武裝採礦車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKA",
+    "sourceName": "卡車",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TRUCKB",
+    "sourceName": "卡車（載貨）",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HOWI",
+    "sourceName": "榴彈砲",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HIND",
+    "sourceName": "雌鹿運輸直昇機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LTNK",
+    "sourceName": "輕坦克",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CMON",
+    "sourceName": "超時空採礦車（未裝載）",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "XCOMET",
+    "sourceName": "位置標定器",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DEATHDUMMY",
+    "sourceName": "DeathDummy",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "VLAD",
+    "sourceName": "維拉迪摩指揮艦",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PROPA",
+    "sourceName": "宣傳車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CONA",
+    "sourceName": "挖土機",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "COP",
+    "sourceName": "警車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "EUROC",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "LIMO",
+    "sourceName": "豪華轎車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "STANG",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVB",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "SUVW",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TAXI",
+    "sourceName": "計程車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PTRUCK",
+    "sourceName": "小貨車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CRUISE",
+    "sourceName": "遊輪",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "TUG",
+    "sourceName": "拖船",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CDEST",
+    "sourceName": "海岸巡防艇",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "APACHE",
+    "sourceName": "APACHE",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "HORNET",
+    "sourceName": "黃蜂",
+    "included": false,
+    "reason": "航母舰载子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "V3ROCKET",
+    "sourceName": "V3 火箭",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "ASW",
+    "sourceName": "鶚式運輸機",
+    "included": false,
+    "reason": "驱逐舰反潜子机"
+  },
+  {
+    "version": "ra2",
+    "gameId": "DMISL",
+    "sourceName": "飛彈",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "ra2",
+    "gameId": "PDPLANE",
+    "sourceName": "運輸機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "ra2",
+    "gameId": "CARGOPLANE",
+    "sourceName": "運輸機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV1",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV2",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIV3",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CTECH",
+    "sourceName": "技師",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "WEEDGUY",
+    "sourceName": "化學兵",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "COW",
+    "sourceName": "乳牛",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "ALL",
+    "sourceName": "鱷魚",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "VLADIMIR",
+    "sourceName": "平民",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PENTGEN",
+    "sourceName": "平民",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PRES",
+    "sourceName": "總統",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SSRV",
+    "sourceName": "終極保鏢",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVA",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVB",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVC",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBBP",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBFM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBF",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVBTM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSFM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSF",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVSTM",
+    "sourceName": "平民",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "POLARB",
+    "sourceName": "北極熊",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "JOSH",
+    "sourceName": "猴子",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CLNT",
+    "sourceName": "Cowboy",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "ARND",
+    "sourceName": "Hero",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "STLN",
+    "sourceName": "Bodybuilder",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAML",
+    "sourceName": "駱駝",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "EINS",
+    "sourceName": "愛因斯坦",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "MUMY",
+    "sourceName": "木乃伊",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "RMNV",
+    "sourceName": "洛馬諾夫總理",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "LUNR",
+    "sourceName": "登月火箭員",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOA",
+    "sourceName": "暴龍",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "DNOB",
+    "sourceName": "腕龍",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "SLAV",
+    "sourceName": "奴隸",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "WWLF",
+    "sourceName": "木乃伊",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "YDOG",
+    "sourceName": "警犬",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YADOG",
+    "sourceName": "警犬",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CAR",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "BUS",
+    "sourceName": "校車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "WINI",
+    "sourceName": "休旅車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "PICK",
+    "sourceName": "小貨車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "HORV",
+    "sourceName": "武裝採礦車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKA",
+    "sourceName": "卡車",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "TRUCKB",
+    "sourceName": "卡車（載貨）",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "HOWI",
+    "sourceName": "榴彈砲",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "HIND",
+    "sourceName": "雌鹿運輸直昇機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMON",
+    "sourceName": "超時空採礦車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "XCOMET",
+    "sourceName": "位置標定器",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DEATHDUMMY",
+    "sourceName": "DeathDummy",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "VLAD",
+    "sourceName": "維拉迪摩指揮艦",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "PROPA",
+    "sourceName": "宣傳車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CONA",
+    "sourceName": "挖土機",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "COP",
+    "sourceName": "警車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "EUROC",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "LIMO",
+    "sourceName": "豪華轎車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "STANG",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVB",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "SUVW",
+    "sourceName": "汽車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "TAXI",
+    "sourceName": "計程車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "PTRUCK",
+    "sourceName": "小貨車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CRUISE",
+    "sourceName": "遊輪",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "TUG",
+    "sourceName": "拖船",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CDEST",
+    "sourceName": "海岸巡防艇",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "SMON",
+    "sourceName": "超時空採礦車（未裝載）",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "YCAB",
+    "sourceName": "黃色計程車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "DDBX",
+    "sourceName": "巴士",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "BCAB",
+    "sourceName": "黑色計程車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "JEEP",
+    "sourceName": "卡車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "UTNK",
+    "sourceName": "ZZZ Not Used",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "YDUM",
+    "sourceName": "YDUM",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "SCHD",
+    "sourceName": "武裝直升機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "DOLY",
+    "sourceName": "攝影車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CBLC",
+    "sourceName": "電車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "FTRK",
+    "sourceName": "救火車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "AMBU",
+    "sourceName": "救護車",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "CIVP",
+    "sourceName": "民航機",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "APACHE",
+    "sourceName": "APACHE",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "HORNET",
+    "sourceName": "黃蜂",
+    "included": false,
+    "reason": "航母舰载子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "V3ROCKET",
+    "sourceName": "V3 火箭",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "ASW",
+    "sourceName": "鶚式運輸機",
+    "included": false,
+    "reason": "驱逐舰反潜子机"
+  },
+  {
+    "version": "yr",
+    "gameId": "DMISL",
+    "sourceName": "飛彈",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  },
+  {
+    "version": "yr",
+    "gameId": "PDPLANE",
+    "sourceName": "運輸機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CARGOPLANE",
+    "sourceName": "運輸機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "BPLN",
+    "sourceName": "米格戰機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "SPYP",
+    "sourceName": "偵察機",
+    "included": true,
+    "reason": "有图标的战役／平民／隐藏或特殊支援单位"
+  },
+  {
+    "version": "yr",
+    "gameId": "CMISL",
+    "sourceName": "飛彈",
+    "included": false,
+    "reason": "没有独立菜单图标"
+  }
+]
