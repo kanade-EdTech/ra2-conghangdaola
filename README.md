@@ -1,6 +1,12 @@
 # 红警 2：从夯到拉
 
-红警 2 国家、部队、建筑与特色排名工具，当前候选版本 `0.4.0`。支持 B 站 Toy 和小红书离线小工具，使用“夯、顶级、人上人、NPC、拉”五档和待排名区。
+红警 2 国家、部队、建筑与特色排名工具，当前发行版本 `0.4.3`。支持 B 站 Toy 和小红书离线小工具，使用“夯、顶级、人上人、NPC、拉”五档和待排名区。
+
+0.4.3 修复长图导出弹窗：图片独立滚动，关闭、翻页、保存按钮保持可见。Toy 为完整榜单，小红书沿用精简范围与 138 张共享图标。发行包为 `release/ra2-tier-list-toy-0.4.3.zip` 与 `release/ra2-tier-list-xhs-0.4.3.zip`。详见 [发行说明](docs/0.4.3-发行说明.md) 和 [界面检查记录](docs/2026-10-18-界面检查.md)。
+
+2026-10-18，Toy 0.4.3 已按“公开可见”提交审核，返回 `auditing`。[本轮提交预览](https://www.bilibili.com/toy/preview/preview_uAyLxel8/index.html)，[正式作品入口](https://www.bilibili.com/toy/ra2-conghangdaola/index.html)；正式入口在审核通过后更新。
+
+小红书另提供 **0.4.2 优化版**：[包体优化记录](docs/0.4.2-小红书包体优化.md)。沿用 [0.4.1 精简范围](docs/0.4.1-小红书导出记录.md)，保留国家榜、常规榜、国家特色和 T4，移除其他单位及特殊建筑。相同图标跨版本共用文件，图片从 226 张减至 138 张，包为 `release/ra2-tier-list-xhs-0.4.2.zip`（约 649 KB，比 0.4.1 缩小 39.5%）。用 `npm run build:xhs`、`npm run check:xhs`、`npm run package:xhs` 重建。以下 0.4.0 范围说明对应完整版本。
 
 ## 使用方式
 

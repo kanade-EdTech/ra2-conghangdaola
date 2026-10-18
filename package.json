@@ -1,6 +1,6 @@
 {
   "name": "ra2-conghangdaola",
-  "version": "0.4.0",
+  "version": "0.4.3",
   "private": true,
   "description": "红警 2 国家、单位、T4 与国家特色从夯到拉生成器",
   "scripts": {
@@ -8,6 +8,9 @@
     "dev": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.cjs",
     "check": "node scripts/check-artifacts.mjs",
-    "package": "python scripts/package.py"
+    "package": "python scripts/package.py",
+    "build:xhs": "node scripts/build.mjs xhs",
+    "check:xhs": "node scripts/check-artifacts.mjs xhs",
+    "package:xhs": "python scripts/package.py --platform xhs"
   }
 }

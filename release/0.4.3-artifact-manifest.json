@@ -1,0 +1,30 @@
+{
+  "ra2-tier-list-toy-0.4.3.zip": {
+    "platform": "toy",
+    "version": "0.4.3",
+    "bytes": 1180290,
+    "uncompressedBytes": 1457104,
+    "files": 265,
+    "images": 247,
+    "sha256": "8f71f3a0432fbb443c19bbb192cb88318deec996ff63834d2737c49ad72e4427",
+    "unitTests": 31,
+    "uiBrowserAssertions": 57,
+    "profileBrowserAssertions": 45,
+    "zipIntegrity": "passed",
+    "distBytesMatch": true
+  },
+  "ra2-tier-list-xhs-0.4.3.zip": {
+    "platform": "xhs",
+    "version": "0.4.3",
+    "bytes": 648727,
+    "uncompressedBytes": 766741,
+    "files": 155,
+    "images": 138,
+    "sha256": "f2bec49527b0547b5d725009848b613466d001a9b72c63befaede00a7ba1d943",
+    "unitTests": 31,
+    "uiBrowserAssertions": 57,
+    "profileBrowserAssertions": 23,
+    "zipIntegrity": "passed",
+    "distBytesMatch": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ra2-tier-list-xhs-0.4.2.zip": {
+    "platform": "xhs",
+    "version": "0.4.2",
+    "bytes": 648558,
+    "uncompressedBytes": 765985,
+    "files": 155,
+    "sha256": "017dd36ff161bf72d9bdc889b08605f3a2be3cf9294205664a52b6d6fc2a3364",
+    "images": 138,
+    "duplicateImagesRemoved": 88,
+    "unitTests": 31,
+    "browserAssertions": 23,
+    "previousZipBytes": 1071306,
+    "reductionPercent": 39.46
+  }
+}

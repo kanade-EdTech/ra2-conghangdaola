@@ -4,8 +4,7 @@ import path from 'node:path';
 import vm from 'node:vm';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const { scripts: expectedScripts, productionFiles } = await import('./production-files.mjs');
-const expectedFiles = await productionFiles(new URL('../',import.meta.url));
+const { scriptsFor, productionFiles } = await import('./production-files.mjs');
 async function walk(directory) {
   const files = [];
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -24,7 +23,10 @@ const forbidden = [
   [/\.\s*(?:download|createObjectURL|writeText|requestFullscreen|execCommand)\b/, 'download / clipboard / fullscreen'],
   [/https?:\/\//, 'external URL']
 ];
-for (const platform of ['toy', 'xhs']) {
+const requested=process.argv[2];
+if(requested && !['toy','xhs'].includes(requested))throw new Error('Use check-artifacts.mjs [toy|xhs]');
+for (const platform of requested?[requested]:['toy', 'xhs']) {
+  const expectedScripts=scriptsFor(platform),expectedFiles=await productionFiles(new URL('../',import.meta.url),platform);
   const directory = path.join(root, 'dist', platform);
   const files = await walk(directory);
   let bytes = 0;

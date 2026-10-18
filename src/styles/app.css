@@ -103,6 +103,12 @@ h1 .last-word { color: #81bfc6; }
 .modal-actions button { margin: 4px; flex: 1; min-width: 90px; }
 .modal-note { color: var(--muted); font-size: 11px; line-height: 1.8; }
 .poster-modal { width: 600px; }
+.poster-modal { display: flex; flex-direction: column; overflow: hidden; }
+.poster-modal #modal-content, .poster-content { display: flex; flex-direction: column; min-height: 0; }
+.poster-modal #modal-content { flex: 1 1 auto; }
+.poster-content > * { flex-shrink: 0; }
+.poster-content .poster-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+.poster-scroll:focus { outline: 2px solid #f4a45f; outline-offset: -2px; }
 .poster-preview { display: block; max-width: 100%; height: auto; margin: 18px auto; border-radius: 3px; }
 .poster-actions { display: flex; align-items: center; justify-content: space-between; }
 .poster-actions button { flex: 1; }

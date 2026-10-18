@@ -395,13 +395,17 @@
     var version = core.clone(context());
     try {
       var poster = await app.createPoster(snapshot, version, width, pageIndex);
-      var wrapper = element('div');
+      var wrapper = element('div', 'poster-content');
       var heading = element('h2', '', '你的排名，已就位。'); heading.id = 'modal-title';
       wrapper.appendChild(heading);
       wrapper.appendChild(element('p', 'modal-description', app.catalog.summary(version) + ' · ' + poster.width + ' × ' + poster.height));
       var preview = element('img', 'poster-preview'); preview.src = poster.data;
       preview.alt = (snapshot.title || '我的排名') + '结果图，' + app.catalog.summary(version);
-      wrapper.appendChild(preview);
+      var previewScroll = element('div', 'poster-scroll');
+      previewScroll.tabIndex = 0;
+      previewScroll.setAttribute('role', 'region');
+      previewScroll.setAttribute('aria-label', '结果图预览，可上下滚动');
+      previewScroll.appendChild(preview); wrapper.appendChild(previewScroll);
       if(poster.pageCount>1) {
         var pager=element('div','poster-pager');
         var prevPage=button('上一页','secondary-button',function(){dialog.hide();exportPoster(width,poster.page-1);});
